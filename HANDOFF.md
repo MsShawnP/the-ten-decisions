@@ -67,3 +67,15 @@ Lailara theme spec. No writing started. No code written.
 breakdown and effort estimates. Then start A0 → A1 → A2 → B1 → C1–C5.
 
 ---
+
+## 2026-05-27 18:45 — Complete The Ten Decisions — manifesto (3,828 words, 13 pages) and exec summary (1,049 words, 4 pages) delivered as distributable PDFs
+
+**What changed:** All 13 implementation units (U1–U13) executed; both portfolio documents written, styled, and rendered to PDF.
+
+**Why:** /ce:work executed the full plan — Cinderhaven findings collected, decision phrasings written, manifesto and exec summary authored, CEO-voice calibration pass completed, Lailara design system styling verified.
+
+**State:** manifesto.qmd (3,828 words, 13 pages) and exec-summary.qmd (1,049 words, 4 pages) render cleanly via pagedjs-cli. dist/the-ten-decisions-manifesto.pdf (228 KB) and dist/the-ten-decisions-exec-summary.pdf (83 KB) are the distributable outputs. Plan status = completed. Nothing broken.
+
+**Next:** Run /ce:review to run the reviewer ensemble on both documents before shipping.
+
+---
