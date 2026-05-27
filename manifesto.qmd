@@ -99,9 +99,8 @@ lowest-exposure SKU in the same period. Bottom-quartile SKUs averaged $710,000
 each. The spread was invisible until per-SKU cost attribution was modeled.
 :::
 
-→ **Where the Money Actually Comes From:** per-channel, per-SKU contribution model
-that shows which products are paying for your operations and which ones are
-consuming them.
+→ **Velocity Decision Tool:** per-SKU velocity, cost, and margin model that shows
+which products are paying for your operations and which ones are consuming them.
 
 ---
 
@@ -249,13 +248,78 @@ EDI specialist required.
 
 ## "Which channels actually make us money?"
 
-<!-- U7: Decision 6 — Channel Profitability -->
+You know which channels are growing. You don't know which ones are profitable.
+The difference matters when you're deciding where to concentrate your broker
+attention, trade budget, and ranging priorities next quarter.
+
+Revenue reporting shows gross revenue by channel. It doesn't show contribution
+per dollar of cost — broker fees, co-op advertising, slotting, distributor
+margin, and chargeback exposure vary dramatically by channel, and none of that
+comes off the top in a standard P&L. You optimize for the channels that look
+largest. The largest-looking channel and the most profitable channel are rarely
+the same one.
+
+At $5M, gross margin by channel is directionally useful because you're in two or
+three accounts and can feel the difference. At $25M, operating without
+per-channel contribution accounting means your trade investment is going to the
+channel with the biggest revenue number — which is usually the most demanding
+buyer relationship, the highest deduction rate, and the thinnest net margin. The
+channel that feels smallest is often returning 8–10 cents more per dollar than
+your biggest retail account. That spread compounds every time you decide where to
+invest next.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+3.01 margin-point gap between Cinderhaven's best retail channel (Whole Foods,
+82.65%) and worst (Costco, 79.64%). Distributor channels blended at 90.16% vs.
+retail at 81.1%. On the same $1M incremental investment, the distributor channel
+returned $90,844 more in contribution margin — invisible without a per-channel
+contribution model.
+:::
+
+→ **Where the Money Actually Comes From:** per-channel contribution model that
+shows which relationships are worth growing and which ones are consuming margin
+you can no longer afford to subsidize.
 
 ---
 
 ## "Why does our bank account look empty when our sales pipeline looks full?"
 
-<!-- U7: Decision 7 — Revenue Lifecycle -->
+Revenue from a confirmed order goes through multiple handoffs before it becomes
+cash. Deductions taken off the invoice, disputed chargebacks, net payment terms,
+volume rebates, settlement discounts — each reduces the final deposit. Your P&L
+shows a strong quarter. Your bank account doesn't agree. The difference is not
+an accounting error. It's the invoice-to-cash waterfall, and nobody has mapped it.
+
+The leakage is structural, not random. Each dollar you invoice travels through
+a defined set of handoffs with a known leakage rate at each step — and each
+leakage point can be modeled and reduced. Most brands have never mapped the
+waterfall because no single system captures the full journey. The invoice is in
+the accounting system. The deductions are in a spreadsheet. The chargebacks are
+in the dispute queue. No one has looked at all three together.
+
+At $5M, the founder knows the gap exists because they reconcile the bank
+statement themselves. At $25M, it's a 13-cent structural gap on every dollar you
+invoice — $2M or more in annual leakage that no one has explicitly attributed or
+decided to address. The Sankey chart from the Contract-to-Cash model makes this
+visible in a way that a P&L report never does: each branch of the flow has a
+dollar amount attached to it, and the branches that go dark are where the margin
+disappears.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+86.5¢ per dollar invoiced reached cash. Combined leakage $2,178,000. B2B
+leakage 12.5%; time-to-cash 22–29 days. Before: leakage measured only as the
+difference between gross revenue and bank deposits, with no attribution. After:
+full invoice-to-cash waterfall mapped by leakage type, enabling intervention at
+the highest-value gaps.
+:::
+
+→ **Contract-to-Cash:** invoice-to-cash waterfall model that attributes every
+dollar of leakage between the purchase order and the bank deposit — by deduction
+type, retailer, and timing gap.
 
 ---
 
