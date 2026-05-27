@@ -61,7 +61,7 @@ This is the loop that $25 million specialty food brands get caught in. Not
 catastrophically — not all at once. Quietly, quarter after quarter, until the
 business that should be scaling is instead treading water.
 
-To show what these frameworks actually surface, we built Cinderhaven Provisions —
+To make this concrete, we built Cinderhaven Provisions —
 a composite case study brand, modeled on real industry patterns at the $25M
 revenue scale. Every dollar figure you'll see in the sections below comes from
 Cinderhaven's synthetic dataset. Not a real client. Not a promised result. A
@@ -446,9 +446,8 @@ The ten decisions in this manifesto build the infrastructure that makes this
 weekly visibility possible. Without the deduction recovery process, the disputed
 AR number has no denominator. Without the fill rate model, the shelf velocity
 risk has no history. Without the channel profitability analysis, the cash
-position has no context. When the frameworks are in place, Monday morning takes
-twenty minutes — and the three numbers tell you whether this week is a holding
-action or an intervention.
+position has no context. When all ten are running, Monday morning takes twenty minutes — and the three
+numbers tell you whether this week is a holding action or an intervention.
 
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
@@ -478,9 +477,8 @@ profitable account instead of an expensive one. Build the weekly report and
 someone on your team sees the loop forming before it runs twelve weeks.
 
 This is what we do at Lailara. We build the decision infrastructure that growing
-specialty food brands need. Not dashboards. Not data for data's sake. Frameworks
-that turn your data into the ten operational decisions that determine whether you
-scale or stall.
+specialty food brands need. Not dashboards. Not data for data's sake. Tools that turn your operational data
+into the ten decisions that determine whether you scale or stall.
 
 ::: {.cta-block}
 
