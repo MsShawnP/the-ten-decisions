@@ -5,6 +5,132 @@ date: "2026-01-01"
 date-format: "YYYY"
 ---
 
-## Placeholder
+You built this brand to $25 million. The product works. The retail relationships
+are real. And somewhere in the last 18 months, the business became harder to run
+than it should be.
 
-This document will contain the executive summary (~1,000 words). Content will be written in U10.
+Not harder in the way growth is supposed to be hard — hiring, logistics, keeping
+up with demand. Harder in a quieter way. Margins that should be improving aren't.
+Cash that should be accumulating isn't. Chargebacks arriving that nobody has time
+to fight. Retailers growing in revenue and somehow costing more every quarter than
+they used to.
+
+This is not a product problem or a people problem. It's a data structure problem.
+
+You've outgrown the systems that were adequate at $5M and haven't yet built the
+decision infrastructure that a $25M specialty food brand requires. The cost of
+that gap — across ten structural decisions that growing brands routinely make
+without data — runs between **$1.4 million and $3.1 million a year.** Not
+projected. Not theoretical. The gap that exists in the current business, right
+now, because ten operational choices are being made blind.
+
+---
+
+The first five decisions are about what you have today.
+
+Which SKUs are paying their way — and which ones are consuming production
+capacity, broker attention, and warehouse space without earning back their keep.
+At 45 SKUs across four channels, you need a model to do what your gut did at 15.
+
+Whether your product data — GTINs, item attributes, case dimensions, GS1 registry
+entries — will hold up when the next retailer asks for it, or generate chargeback
+notices 60 days after the onboarding from errors that have been in the catalog
+for two years.
+
+How much of the revenue you've billed has been quietly taken back in deductions
+— short pays, advertising charges, compliance fees — and whether your team has a
+systematic process to dispute them in the 30–60 day window before they expire
+uncontested. Most brands at $25M recover less than 20 cents of every dollar
+deducted. Eighty cents stays out.
+
+Whether operational failures are being tracked. Short-shipped orders don't just
+lose revenue — the legacy system overwrites the original PO quantity with the
+shipped quantity, and the cost of the gap disappears from the records. You lose
+the revenue, the fill rate history, and the ability to make the case for recovery.
+
+And whether your EDI is catching errors before shipment or paying for them in
+chargebacks 30 days after the truck left the dock. A missing SSCC-18 barcode is
+$100 per case. A late ASN is $500 per load. A pre-flight check catches both in
+under 60 seconds.
+
+Most brands at $25M are making all five without adequate data. Not neglected.
+Invisible — because nobody built the infrastructure to surface them.
+
+---
+
+The next two decisions reveal whether you understand the business you actually
+have.
+
+Which channels are making you money: not which ones generate the most revenue,
+but which ones return the most per dollar of broker fee, trade spend, and margin
+concession. The largest channel and the most profitable channel are rarely the
+same one. Operating without a per-channel contribution model means every trade
+dollar goes to the account with the biggest revenue number — which is usually
+also the most demanding buyer relationship and the thinnest net margin.
+
+And why the bank account doesn't match the sales report. Revenue that looks clean
+in the pipeline is losing 13 cents of every dollar to deductions, chargebacks,
+payment timing gaps, and invoice leakage before it becomes cash. No one has mapped
+the full waterfall because no single system captures the journey — the invoice is
+in accounting, the deductions are in a spreadsheet, the chargebacks are in the
+dispute queue. The leakage is structural and knowable. It just hasn't been looked
+at yet.
+
+---
+
+The final three decisions are about what's next.
+
+Whether you're structurally ready when a major retailer says yes — across product
+data, EDI capability, FSMA traceability, fulfillment capacity, and team readiness
+— before you sign the PO, not after the first failed delivery. A Red EDI
+dimension at Walmart isn't a flag in a project plan. It's 8–12 weeks of
+remediation before you can ship a compliant order. A GFSI certification gap at
+Whole Foods isn't a two-week fix. It's a complete launch block.
+
+Whether you know what saying yes to that retailer actually costs you in Year 1.
+Slotting fees front-load before you ship a single case. Net-60 payment terms mean
+you've funded two months of inventory before seeing any cash. Trade spend and OTIF
+compliance reserves are committed upfront. The 12-month P&L and cash flow model
+shows you the path before you commit to it.
+
+And whether you have the three-number weekly report that keeps all nine other
+decisions from drifting back to blind: cash position, disputed AR balance, and
+at-risk shelf velocity. Missing one week of attention doesn't break a business.
+Missing six weeks does.
+
+---
+
+These ten decisions don't operate in isolation. They compound.
+
+Fulfillment failures generate chargeback notices 45 days later. Those chargebacks
+strain cash at the moment a production run needs funding. The cash gap delays the
+product data cleanup that would have stopped the next round of onboarding errors.
+The channel you're overinvesting in delivers the thinnest margin — but nobody
+modeled it because the contribution tool doesn't exist yet. The weekly report that
+would show you this loop forming was never built.
+
+The loop doesn't break a $25M specialty food brand in a quarter. It makes the
+business harder to run every quarter — until the brand that should be scaling is
+treading water, winning accounts and somehow making less money every time one
+calls.
+
+---
+
+The ten decisions aren't obscure. Every specialty food CEO knows they should be
+tracking these numbers. The problem isn't awareness. It's that nobody has built the systems to
+make all ten visible — simultaneously, in the same business — until someone
+decides to.
+
+That is the work. Not dashboards for their own sake. Not data as a deliverable.
+The decision infrastructure that turns operational data into the ten choices
+that determine whether a specialty food brand scales or stalls.
+
+::: {.cta-block}
+
+**Not sure where to start?** The Retail Readiness Assessment takes five minutes
+and tells you which of these ten structural gaps is threatening your margin right
+now.
+
+→ [lailara.com/retail-readiness](https://lailara.com/retail-readiness)
+
+:::
