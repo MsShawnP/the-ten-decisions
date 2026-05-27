@@ -5,6 +5,9 @@ project:
 format:
   pdf:
     pdf-engine: pagedjs-cli
+    css: lailara.scss
+    toc: false
+    number-sections: false
 
 execute:
   echo: false

@@ -1,0 +1,10 @@
+---
+title: "The Ten Decisions: Executive Summary"
+subtitle: "A 3-Minute Brief for Specialty Food Founders"
+date: "2026-01-01"
+date-format: "YYYY"
+---
+
+## Placeholder
+
+This document will contain the executive summary (~1,000 words). Content will be written in U10.

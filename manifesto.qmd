@@ -1,0 +1,18 @@
+---
+title: "The Ten Decisions"
+subtitle: "What Growing Specialty Food Brands Get Wrong — and What It Costs Them"
+date: "2026-01-01"
+date-format: "YYYY"
+---
+
+## Placeholder
+
+This document will contain the full Ten Decisions manifesto (~4,000 words). Content will be written in stages U5–U8.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+This is a sample callout box to verify the dark card style renders correctly.
+:::
+
+→ Retail Readiness Scorecard: diagnoses which of the ten structural leaks is threatening your margin today.
