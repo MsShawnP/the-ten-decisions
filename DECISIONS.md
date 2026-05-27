@@ -19,6 +19,18 @@ Each entry:
 
 ## Architecture & Pipeline
 
+### 2026-05-27 — Use Chromium as the Quarto PDF engine
+- **Why:** The Lailara design system is CSS-based (web fonts, hex color tokens,
+  SCSS). Quarto's default LaTeX PDF engine does not support CSS or woff2 fonts —
+  it requires LaTeX font packages and ignores `lailara.scss` entirely. The
+  Chromium engine renders HTML first, then prints to PDF, giving full CSS
+  control and woff2 font support. User confirmed Chromium is available.
+  Surfaced in /plan-eng-review on 2026-05-27.
+- **Scope:** `_quarto.yml` — set `pdf-engine: chromium` in format config
+- **Do not:** Use the default LaTeX engine. Do not use Typst (less mature,
+  unnecessary complexity). Chromium is the engine; do not change without
+  a documented reason in this file.
+
 ### 2026-05-27 — Defer stack selection until after /plan-eng-review
 - **Why:** Stack is TBD per the project brief. The technical approach
   (static HTML/CSS/JS vs. Next.js vs. Quarto, etc.) should emerge from
@@ -27,6 +39,40 @@ Each entry:
 - **Scope:** Global
 - **Do not:** Write any code or install any packages before the stack
   decision is logged here with explicit rationale.
+
+---
+
+## Success Metric
+
+### 2026-05-27 — Define success as a qualified prospect visit/review, not vanity metrics
+- **Why:** This is a new business venture with no existing traffic baseline.
+  Download counts and page views are unmeasurable and meaningless at launch.
+  The right signal is a real C-suite person at a specialty food brand
+  ($3M–$50M revenue) actually reading and engaging with the manifesto.
+  One qualified review confirms the piece reached the right audience.
+  Surfaced in /plan-ceo-review on 2026-05-27.
+- **Scope:** Post-ship evaluation
+- **Do not:** Optimize for vanity metrics (total downloads, page views, shares)
+  before getting a single qualified read. A prospect who says "I read your
+  ten decisions piece" is the signal.
+
+---
+
+## Cinderhaven Framing
+
+### 2026-05-27 — Label Cinderhaven explicitly as a composite case study, not a real client
+- **Why:** Cinderhaven data is synthetic — constructed to illustrate what the
+  frameworks reveal, not real client results. Presenting specific dollar figures
+  ($180K–$350K in deductions, etc.) without this framing implies validated client
+  outcomes, which would mislead a sophisticated CFO and undermine the practice's
+  credibility when discovered. The fix is simple and actually stronger: framing
+  Cinderhaven as a composite demonstrates the *tool*, not just a result.
+  Surfaced in /office-hours on 2026-05-27.
+- **Scope:** Every reference to Cinderhaven in both manifesto and exec summary
+- **Do not:** Use language that implies Cinderhaven is a real client ("our client,"
+  "a brand we worked with," "results from a recent engagement"). Always use:
+  "composite case study," "fictional brand built to illustrate," or similar.
+  The explicit label must appear on first mention — not buried in a footnote.
 
 ---
 

@@ -39,3 +39,31 @@ pieces are shipped. Hard must-haves: Where the Money, Retail Readiness
 Scorecard, Cost of Saying Yes, and Contract-to-Cash or Deduction Recovery.
 
 ---
+
+## 2026-05-27 17:45 — All Phase 1 workflow gates complete; requirements doc written
+
+**What changed:** Ran /clarify, /office-hours, /plan-ceo-review, /plan-eng-review,
+and /ce:brainstorm. All four Heavy-tier gates passed. Full requirements document
+written to `docs/brainstorms/ten-decisions-requirements.md`.
+
+**Why:** This is the planning foundation — all scope, structural, and voice
+decisions are now locked so writing can begin without revisiting them.
+
+**State:** All Phase 1 gates checked off in PLAN.md. DECISIONS.md has 9 locked
+decisions. Requirements doc covers section template, Cinderhaven callout box
+spec, aggregate cost table placement, exec summary structure, file layout, and
+Lailara theme spec. No writing started. No code written.
+
+**Key decisions locked this session:**
+- Cinderhaven = composite case study, explicitly labeled (not implied real client)
+- Each decision section has a named Cinderhaven callout box (dark card style)
+- Aggregate cost table in Setup section before Decision 1
+- Exec summary = flowing prose argument, no per-decision sections or callout boxes
+- PDF engine = Chromium (CSS + woff2; LaTeX ruled out)
+- A0 smoke test added before A1 (20-min PDF render check catches engine issues early)
+- Success metric = one qualified C-suite read and engagement
+
+**Next:** Run /ce:plan to produce the concrete implementation plan with task
+breakdown and effort estimates. Then start A0 → A1 → A2 → B1 → C1–C5.
+
+---
