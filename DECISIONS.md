@@ -19,17 +19,35 @@ Each entry:
 
 ## Architecture & Pipeline
 
-### 2026-05-27 — Use Chromium as the Quarto PDF engine
+### ~~2026-05-27 — Use `pdf-engine: chromium`~~ — SUPERSEDED
+- **Superseded by:** "Use `pdf-engine: pagedjs-cli`" (see below, 2026-05-27)
+
+### 2026-05-27 — Use `pdf-engine: pagedjs-cli` as the Quarto PDF engine
 - **Why:** The Lailara design system is CSS-based (web fonts, hex color tokens,
-  SCSS). Quarto's default LaTeX PDF engine does not support CSS or woff2 fonts —
-  it requires LaTeX font packages and ignores `lailara.scss` entirely. The
-  Chromium engine renders HTML first, then prints to PDF, giving full CSS
-  control and woff2 font support. User confirmed Chromium is available.
-  Surfaced in /plan-eng-review on 2026-05-27.
-- **Scope:** `_quarto.yml` — set `pdf-engine: chromium` in format config
-- **Do not:** Use the default LaTeX engine. Do not use Typst (less mature,
-  unnecessary complexity). Chromium is the engine; do not change without
-  a documented reason in this file.
+  SCSS). Quarto's default LaTeX PDF engine does not support CSS or woff2 fonts.
+  The spirit of the decision is "Chromium-based HTML→PDF with full CSS support"
+  — the correct Quarto implementation is `pagedjs-cli`, not `chromium`. Quarto
+  1.9.37 does not accept `chromium` as a `pdf-engine` value; valid CSS-capable
+  engines are `weasyprint` and `pagedjs-cli`. WeasyPrint requires GTK3 libraries
+  not installed on this Windows machine. `pagedjs-cli` uses headless Chrome
+  (already installed) via Puppeteer and supports full CSS, woff2 fonts, CSS
+  custom properties, and print-color-adjust. Confirmed working in A0 smoke test
+  2026-05-27.
+  **Windows note:** Quarto/pandoc's Haskell `findExecutable` only looks for `.exe`
+  files on Windows. `pagedjs-cli` installs as a `.cmd` wrapper in the npm global
+  bin. To make it findable, a C# wrapper `pagedjs-cli.exe` (4KB) was compiled at
+  `C:\Users\mssha\AppData\Roaming\npm\pagedjs-cli.exe`. If this machine is replaced
+  or npm is reinstalled, recompile the wrapper from `pagedjs-cli.cs` in the npm
+  global bin directory.
+- **Scope:** `_quarto.yml` — set `pdf-engine: pagedjs-cli` in format config
+- **Do not:** Use the default LaTeX engine. Do not set `pdf-engine: chromium`
+  (invalid in Quarto 1.9.x). Do not remove `pagedjs-cli.exe` without providing
+  a replacement — pandoc cannot find the `.cmd` file.
+- **Print CSS deviation:** `lailara.scss` intentionally does NOT include
+  `@media print { background-color: #ffffff }` — the design system's default
+  print rule is overridden here to preserve the warm canvas background in the
+  PDF. `print-color-adjust: exact` is required on `html` and `body` to force
+  Chromium/pagedjs-cli to print the background. Documented here — do not revert.
 
 ### 2026-05-27 — Defer stack selection until after /plan-eng-review
 - **Why:** Stack is TBD per the project brief. The technical approach
