@@ -5,14 +5,152 @@ date: "2026-01-01"
 date-format: "YYYY"
 ---
 
-## Placeholder
+You built this brand to $25 million by being right about the product. You got the
+formulation right, the positioning right, the early retailer relationships right.
+And now the business is harder to run than it was at $5 million.
 
-This document will contain the full Ten Decisions manifesto (~4,000 words). Content will be written in stages U5–U8.
+Margins are thinner. Cash flow doesn't match the sales report. Chargebacks are
+arriving that nobody on your team has time to dispute. You won three new retail
+accounts this year and somehow made less money than you did before any of them
+called.
 
-::: {.callout-cinderhaven}
-**Cinderhaven Provisions — Composite case study**
+This is not a product problem. It's not a hiring problem. It's a data structure
+problem.
 
-This is a sample callout box to verify the dark card style renders correctly.
+You've outgrown the spreadsheets and gut-checks that got you here. The decision
+infrastructure your business needs — the systems that would make ten operational
+choices visible, trackable, and defensible — doesn't exist yet. And the cost of
+that gap runs between **$1.4 million and $3.1 million a year.**
+
+---
+
+Here is what those ten gaps actually cost, at $25 million in annual revenue:
+
+::: {.cost-table}
+
+| Decision | Annual cost of blindness |
+|---|---|
+| SKU decisions blind | $50K–$150K |
+| Product data not retail-ready | $25K–$100K |
+| Deductions unrecovered | $180K–$350K |
+| Fulfillment failures unquantified | $200K–$500K |
+| EDI creating chargebacks | $25K–$50K |
+| Channel profitability invisible | $300K–$500K |
+| Revenue going dark between systems | $400K–$750K |
+| Retailer launch unplanned | $200K–$750K |
+| Retailer costs unmodeled | Entire slotting investment at risk |
+| No weekly pulse | Compounds all above — caught 6–12 weeks late |
+| **Total across all ten decisions** | **$1.4M–$3.1M** |
+
 :::
 
-→ Retail Readiness Scorecard: diagnoses which of the ten structural leaks is threatening your margin today.
+The numbers don't compound cleanly. They compound catastrophically.
+
+A fulfillment shortfall doesn't just cost you the revenue on the short-shipped
+order. It triggers a chargeback notice that arrives 45 days later — requiring
+evidence your team never captured in real time. That chargeback strains cash at
+the same moment your next production run needs funding. The cash gap delays the
+product data cleanup that would have stopped the next round of onboarding errors.
+And while all of that is compounding, the channel you're investing to grow turns
+out to be the one delivering the thinnest margin — because no one ever modeled
+the contribution per dollar invested by channel. The weekly report that would
+show you this loop forming doesn't exist yet. So it runs for six to twelve weeks
+before anyone looks up.
+
+This is the loop that $25 million specialty food brands get caught in. Not
+catastrophically — not all at once. Quietly, quarter after quarter, until the
+business that should be scaling is instead treading water.
+
+To show what these frameworks actually surface, we built Cinderhaven Provisions —
+a composite case study brand, modeled on real industry patterns at the $25M
+revenue scale. Every dollar figure you'll see in the sections below comes from
+Cinderhaven's synthetic dataset. Not a real client. Not a promised result. A
+demonstration of what the data looks like when you model it honestly against a
+brand running these ten decisions blind.
+
+---
+
+## "Which SKUs should we keep, kill, or double down on?"
+
+<!-- U6: Decision 1 — SKU Rationalization -->
+
+---
+
+## "Will our product data hold up when the next retailer asks for it?"
+
+<!-- U6: Decision 2 — Product Data Health -->
+
+---
+
+## "How much of what we billed last quarter was quietly taken back — and did we fight it?"
+
+<!-- U6: Decision 3 — Deduction Recovery -->
+
+---
+
+## "Are we losing repeat orders because we can't ship what we've promised?"
+
+<!-- U6: Decision 4 — Fulfillment Reliability -->
+
+---
+
+## "Are we paying chargebacks we could have caught before the truck left the dock?"
+
+<!-- U6: Decision 5 — EDI Compliance -->
+
+---
+
+## "Which channels actually make us money?"
+
+<!-- U7: Decision 6 — Channel Profitability -->
+
+---
+
+## "Why does our bank account look empty when our sales pipeline looks full?"
+
+<!-- U7: Decision 7 — Revenue Lifecycle -->
+
+---
+
+## "What breaks first when a major retailer finally says yes to us?"
+
+<!-- U8: Decision 8 — Retail Readiness -->
+
+---
+
+## "Do we actually know what saying yes to this retailer will cost us in Year 1?"
+
+<!-- U8: Decision 9 — Launch Economics -->
+
+---
+
+## "What are the three numbers I need to see Monday morning?"
+
+<!-- U8: Decision 10 — Weekly Pulse -->
+
+---
+
+There is no single decision that breaks a $25 million specialty food brand. What
+breaks brands is the accumulation of ten small decisions made without data — each
+one survivable in isolation, each one compounding with the next.
+
+The good news is that the same is true in reverse. You don't need to solve all
+ten at once. Fix your deduction recovery process and your cash position improves.
+Clean your product data and your next onboarding costs a fraction of what the
+last one did. Model your retailer launch economics and the next yes turns into a
+profitable account instead of an expensive one. Build the weekly report and
+someone on your team sees the loop forming before it runs twelve weeks.
+
+This is what we do at Lailara. We build the decision infrastructure that growing
+specialty food brands need. Not dashboards. Not data for data's sake. Frameworks
+that turn your data into the ten operational decisions that determine whether you
+scale or stall.
+
+::: {.cta-block}
+
+**Not sure where to start?** Take the 5-minute Retail Readiness Assessment — it
+tells you which of these ten structural gaps is threatening your margin right now.
+
+→ [lailara.com/retail-readiness](https://lailara.com/retail-readiness)
+
+:::
