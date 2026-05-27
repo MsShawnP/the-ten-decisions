@@ -72,31 +72,178 @@ brand running these ten decisions blind.
 
 ## "Which SKUs should we keep, kill, or double down on?"
 
-<!-- U6: Decision 1 — SKU Rationalization -->
+At 15 SKUs, you knew which ones were working because you could watch each one.
+At 45 SKUs across four retailer channels, you need data to do what your gut used
+to do. The velocity numbers tell you what's selling. They don't tell you what's
+profitable. They don't tell you which SKUs are generating retailer chargebacks
+because of case-count variability. They don't tell you which SKUs your distributor
+is quietly deranging because the turns aren't there.
+
+Every underperforming SKU isn't just a margin drag — it's consuming warehouse
+space, production slots, and broker attention that your highest-velocity SKU
+needs. Most specialty food brands in the $15M–$35M range have 3–5 SKUs that have
+been actively pulling margin from the rest of the portfolio for two years without
+anyone modeling the two facts together.
+
+At $5M, you know your top SKU because it's the one your broker calls about. At
+$25M, that same SKU is also the one generating the most short-shipping cost
+exposure — and the two facts have never been modeled together. Not knowing which
+SKUs are costing you shelf space costs $50K–$150K a year at the $25M scale.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+Cinderhaven's top-performing SKU (Extra Virgin Olive Oil, CHP-PS-004) generated
+$1,066,480 in short-shipping cost exposure — 23 times the cost of the
+lowest-exposure SKU in the same period. Bottom-quartile SKUs averaged $710,000
+each. The spread was invisible until per-SKU cost attribution was modeled.
+:::
+
+→ **Where the Money Actually Comes From:** per-channel, per-SKU contribution model
+that shows which products are paying for your operations and which ones are
+consuming them.
 
 ---
 
 ## "Will our product data hold up when the next retailer asks for it?"
 
-<!-- U6: Decision 2 — Product Data Health -->
+Product data failures don't announce themselves. They arrive as chargeback
+notices — GTIN mismatch, case dimensions wrong, missing mandatory attribute. The
+retailer charges you for the correction. By the time the notice arrives, the root
+cause is 60 days in the past and the dispute window is already closing.
+
+The problem compounds at the second retailer. The product data issues that
+generated chargebacks at Whole Foods are embedded in the same item setup files
+you're about to submit to Target. Nobody cleaned them because nobody caught them
+as a systemic issue — just a cost of doing business. And when the buyer asks for
+a GS1 registry certificate before they'll put your item in their planogram, the
+conversation ends before it starts.
+
+At $5M, a bad UPC is a phone call to your retailer contact. At $25M, it's a
+systematic chargeback pattern your team has normalized as a cost of doing
+business — $25K–$100K a year coming out of your gross margin one line item at a
+time, and a clean data audit that would stop most of it costs less than the first
+month of chargebacks.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+Cinderhaven's GTIN and item attribute failures were generating approximately
+$60,000 per year in chargebacks — a $5,000/month run rate from defects that were
+avoidable with a one-time catalog audit. Before: GTIN failures present across the
+full catalog. After: verified GS1 registry entries, chargeback run rate near zero.
+:::
+
+→ **Product Data Health Audit:** GTIN validation, mandatory attribute mapping, and
+retailer-specific data readiness against 12 major grocery and club channel
+requirements.
 
 ---
 
 ## "How much of what we billed last quarter was quietly taken back — and did we fight it?"
 
-<!-- U6: Decision 3 — Deduction Recovery -->
+Retailer deductions are the revenue that appears on your order confirmation and
+disappears from your bank deposit. They arrive as line items on a remittance —
+short pay, advertising deduction, compliance fee, damage claim — and unless
+someone on your team is tracking them systematically, most of them expire
+uncontested.
+
+The dispute window at most major retailers runs 30–60 days. If no one builds an
+evidence package and files a response in that window, the deduction becomes
+permanent. Your team handles the ones that feel urgent and lets the small ones
+go. The small ones add up.
+
+At $5M, a late deduction dispute is a bad Tuesday. At $25M, it's $180K–$350K in
+expired dispute windows and a team that's too busy to fight back — because no
+one has built the system that would let them fight efficiently. The dispute
+process shouldn't require a deduction specialist. It requires documentation
+discipline and a response calendar.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+$534,903.85 in annual deductions; 16.52% recovery rate; $1.02 million in
+deductions never contested. Cinderhaven's team spent the equivalent of 6.06 FTEs
+on deduction management annually — and recovered less than one dollar in six.
+After: systematic dispute process with evidence templates and retailer-specific
+response calendars targeting >50% recovery.
+:::
+
+→ **Retailer Deduction Recovery:** deduction intelligence platform with automated
+dispute tracking, evidence workflows, and recovery rate benchmarking by retailer
+and deduction type.
 
 ---
 
 ## "Are we losing repeat orders because we can't ship what we've promised?"
 
-<!-- U6: Decision 4 — Fulfillment Reliability -->
+Every short-shipped order writes itself into your retailer's system as a fill rate
+data point. At most major retailers, those data points determine whether your
+items stay on shelf at reset time. The buyer doesn't call to warn you. The
+velocity report quietly shows your turns declining, and at the next category
+review, someone else's item is in your slot.
+
+Short-shipping also triggers a secondary cost most brands never attribute
+correctly. The original purchase order gets corrected — your legacy system
+overwrites the ordered quantity with the shipped quantity — and the cost of the
+gap disappears from your records. You lose the revenue, the shelf position data,
+and the ability to make the case for recovery.
+
+At $5M, a short ship is a text message to your co-packer. At $25M, it's OTIF
+fines and canceled reorders — and a buyer making a permanent ranging decision at
+the next category review. Walmart charges 3% of the PO value for every
+non-compliant order. At $25M in retail revenue, a 70% fill rate isn't just a
+performance problem. It's a $200K–$500K annual fine structure running silently
+in the background while the product team is focused on the next launch.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+69.19% overall fill rate. $33,128,550 in total short-shipping costs over three
+years — $11M annually. $2,055,467 in OTIF fines. $6,422,619 in deauthorization
+risk. The legacy system had overwritten original orders with shipped quantities,
+making the cost of the gap invisible until it was modeled from raw PO data.
+:::
+
+→ **The 150 Cases:** fulfillment impact analysis that quantifies the hidden cost of
+short-shipping by SKU, retailer, and order — including the overwritten-order
+problem most brands don't know they have.
 
 ---
 
 ## "Are we paying chargebacks we could have caught before the truck left the dock?"
 
-<!-- U6: Decision 5 — EDI Compliance -->
+EDI errors don't get caught at the point of creation. They get caught 30–60 days
+after delivery, when the chargeback notice arrives. By then the shipment is gone,
+the evidence window is closing, and the choice is between spending an hour
+building a dispute package or writing off $500 as a cost of doing business.
+
+Most of these errors are structurally preventable. A missing SSCC-18 barcode on
+a pallet label. A late ASN — the electronic advance shipping notice that retailers
+require before the truck reaches the dock. An item count discrepancy between the
+ASN and the physical shipment. These are not complex failures. They're validation
+steps that don't exist in the workflow yet.
+
+At $5M, your EDI coordinator knows every carrier and fixes errors by phone. At
+$25M, you're shipping 200+ loads a year and the errors are being fixed by your
+bank account instead. A brand shipping 200 loads per year with a 15% ASN error
+rate is generating $15,000 in entirely avoidable chargebacks — before case-level
+violations are counted. A three-layer pre-flight check before each shipment
+catches the blocking errors in under 60 seconds.
+
+::: {.callout-cinderhaven}
+**Cinderhaven Provisions — Composite case study**
+
+$500 per load for a missing or late ASN. $100 per case for missing or invalid
+SSCC-18 barcodes. $100 per item for catch-weight violations. Cinderhaven's ASN
+errors were being caught only at chargeback arrival — 30–60 days post-shipment —
+with a narrow dispute window. A pre-flight validation layer catches blocking
+errors before the trailer gates at the DC.
+:::
+
+→ **EDI Pre-flight:** structural, field-level, and retailer-specific validation
+that catches chargeback-causing errors before the shipment leaves the dock — no
+EDI specialist required.
 
 ---
 
