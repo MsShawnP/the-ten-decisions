@@ -246,6 +246,19 @@ EDI specialist required.
 
 ---
 
+The first five decisions describe what's already leaking in your current business.
+Fix any one of them and margin improves immediately — not permanently, but enough
+to see clearly. Fix all five and you've addressed the structural gap that keeps
+most $25M specialty food brands from reaching $50M: they grew the revenue without
+building the operational infrastructure underneath it.
+
+The next two decisions answer a different question. Not what's leaking from the
+current business — but where the money actually goes between the order
+confirmation and the bank deposit. These are the decisions that make the full
+picture visible for the first time.
+
+---
+
 ## "Which channels actually make us money?"
 
 You know which channels are growing. You don't know which ones are profitable.
@@ -320,6 +333,14 @@ the highest-value gaps.
 → **Contract-to-Cash:** invoice-to-cash waterfall model that attributes every
 dollar of leakage between the purchase order and the bank deposit — by deduction
 type, retailer, and timing gap.
+
+---
+
+With seven of the ten decisions visible, you have what you need to run the current
+business with a clear read of where the margin is and where it's going. The
+remaining three decisions shift the frame. Not what's happening right now — but
+what happens when a new opportunity arrives, and whether you're structurally
+ready to act on it.
 
 ---
 
