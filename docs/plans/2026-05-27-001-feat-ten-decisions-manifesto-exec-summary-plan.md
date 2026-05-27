@@ -1,6 +1,6 @@
 ---
 title: "feat: Produce Ten Decisions Manifesto and Exec Summary"
-status: active
+status: completed
 created: 2026-05-27
 origin: docs/brainstorms/ten-decisions-requirements.md
 ---
