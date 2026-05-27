@@ -43,7 +43,8 @@ to the next.
 - [x] Draft exec summary (1,000 words, tight thesis distillation) ✓ 2026-05-27
 - [x] Edit pass: pacing, vocabulary, CEO-voice calibration ✓ 2026-05-27
 - [x] Quarto formatting: Lailara design system applied, PDF renders cleanly ✓ 2026-05-27
-- [ ] /ce:review — reviewer ensemble on final drafts
+- [x] /ce:review — reviewer ensemble on final drafts ✓ 2026-05-27
+- [ ] Fix pass: implement Tier 1 + Tier 2 review findings (11 edits, see HANDOFF.md)
 
 ## Out of scope
 
@@ -64,7 +65,8 @@ to the next.
 - [x] Voice calibration check passed: reads as CEO-direct, not consultant-speak ✓
 - [x] Lailara design system applied: Playfair Display headings, Source Sans 3
       body, canvas background, correct type scale ✓
-- [ ] /ce:review complete
+- [x] /ce:review complete — 11 findings delivered (4 Tier-1, 7 Tier-2) ✓ 2026-05-27
+- [ ] Fix pass: Tier 1 + Tier 2 edits implemented and re-rendered
 - [x] HANDOFF.md updated, committed, pushed ✓
 - [ ] Success metric logged: one qualified C-suite prospect at a specialty
       food brand visits and reviews the manifesto

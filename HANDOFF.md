@@ -79,3 +79,23 @@ breakdown and effort estimates. Then start A0 → A1 → A2 → B1 → C1–C5.
 **Next:** Run /ce:review to run the reviewer ensemble on both documents before shipping.
 
 ---
+
+## 2026-05-27 — /ce:review complete — 11 prioritized findings delivered; ready to fix
+
+**What changed:** All 4 reviewer agents completed (correctness, coherence, project-standards, adversarial). Consolidated findings report delivered.
+
+**Why:** Final quality gate before shipping. No structural failures — documents hold. The errors found are fixable in one editing pass.
+
+**State:** Both .qmd files and dist/ PDFs are unchanged. 4 Tier-1 must-fix errors identified:
+1. Cost-table arithmetic: rows sum to $3,150K; document states $3.1M — fix one row by -$50K
+2. Decision 7 table entry ($400K–$750K) contradicts body text ($2M+) — add scope qualifier to table
+3. "invoice-to-cash" used 3× in Decision 7 instead of canonical "Contract-to-Cash"
+4. "13-cent gap" throughout, but source data shows 13.5¢ — round to "14 cents" or use "13.5 cents"
+
+7 Tier-2 worth-fixing findings (fill rate rounding, D5→D6 arc transition error, 2 jargon/hedging phrases, D4 table scope gap, CTA framing, short-ship spelling consistency).
+
+Nothing is broken. dist/ PDFs are ready to use as-is if needed urgently.
+
+**Next:** Implement Tier 1 + Tier 2 fixes in manifesto.qmd and exec-summary.qmd. Re-render both documents. Copy distributable PDFs to dist/. Then /ce:review is checked off in PLAN.md and the project is ready to ship.
+
+---
