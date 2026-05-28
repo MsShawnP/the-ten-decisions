@@ -69,7 +69,7 @@ dollar goes to the account with the biggest revenue number — which is usually
 also the most demanding buyer relationship and the thinnest net margin.
 
 And why the bank account doesn't match the sales report. Revenue that looks clean
-in the pipeline is losing 13 cents of every dollar to deductions, chargebacks,
+in the pipeline is losing 13.5 cents of every dollar to deductions, chargebacks,
 payment timing gaps, and invoice leakage before it becomes cash. No one has mapped
 the full waterfall because no single system captures the journey — the invoice is
 in accounting, the deductions are in a spreadsheet, the chargebacks are in the
@@ -127,9 +127,8 @@ that determine whether a specialty food brand scales or stalls.
 
 ::: {.cta-block}
 
-**Not sure where to start?** The Retail Readiness Assessment takes five minutes
-and tells you which of these ten structural gaps is threatening your margin right
-now.
+**Pursuing a new retail account?** The Retail Readiness Assessment tells you what's
+blocking you — before you sign the PO.
 
 → [lailara.com/retail-readiness](https://lailara.com/retail-readiness)
 

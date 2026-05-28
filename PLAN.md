@@ -44,7 +44,7 @@ to the next.
 - [x] Edit pass: pacing, vocabulary, CEO-voice calibration ✓ 2026-05-27
 - [x] Quarto formatting: Lailara design system applied, PDF renders cleanly ✓ 2026-05-27
 - [x] /ce:review — reviewer ensemble on final drafts ✓ 2026-05-27
-- [ ] Fix pass: implement Tier 1 + Tier 2 review findings (11 edits, see HANDOFF.md)
+- [x] Fix pass: implement Tier 1 + Tier 2 review findings (11 edits, see HANDOFF.md) ✓ 2026-05-28
 
 ## Out of scope
 
@@ -66,7 +66,7 @@ to the next.
 - [x] Lailara design system applied: Playfair Display headings, Source Sans 3
       body, canvas background, correct type scale ✓
 - [x] /ce:review complete — 11 findings delivered (4 Tier-1, 7 Tier-2) ✓ 2026-05-27
-- [ ] Fix pass: Tier 1 + Tier 2 edits implemented and re-rendered
+- [x] Fix pass: Tier 1 + Tier 2 edits implemented and re-rendered ✓ 2026-05-28
 - [x] HANDOFF.md updated, committed, pushed ✓
 - [ ] Success metric logged: one qualified C-suite prospect at a specialty
       food brand visits and reviews the manifesto

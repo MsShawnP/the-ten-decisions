@@ -33,10 +33,10 @@ Here is what those ten gaps actually cost, at $25 million in annual revenue:
 | SKU decisions blind | $50K–$150K |
 | Product data not retail-ready | $25K–$100K |
 | Deductions unrecovered | $180K–$350K |
-| Fulfillment failures unquantified | $200K–$500K |
+| Fulfillment failures unquantified | $200K–$500K (OTIF fine exposure) |
 | EDI creating chargebacks | $25K–$50K |
 | Channel profitability invisible | $300K–$500K |
-| Revenue going dark between systems | $400K–$750K |
+| Revenue going dark between systems | $400K–$700K (payment timing & invoice leakage) |
 | Retailer launch unplanned | $200K–$750K |
 | Retailer costs unmodeled | Entire slotting investment at risk |
 | No weekly pulse | Compounds all above — caught 6–12 weeks late |
@@ -188,10 +188,10 @@ overwrites the ordered quantity with the shipped quantity — and the cost of th
 gap disappears from your records. You lose the revenue, the shelf position data,
 and the ability to make the case for recovery.
 
-At $5M, a short ship is a text message to your co-packer. At $25M, it's OTIF
+At $5M, a short-ship is a text message to your co-packer. At $25M, it's OTIF
 fines and canceled reorders — and a buyer making a permanent ranging decision at
 the next category review. Walmart charges 3% of the PO value for every
-non-compliant order. At $25M in retail revenue, a 70% fill rate isn't just a
+non-compliant order. At $25M in retail revenue, a roughly 69% fill rate isn't just a
 performance problem. It's a $200K–$500K annual fine structure running silently
 in the background while the product team is focused on the next launch.
 
@@ -252,10 +252,10 @@ to see clearly. Fix all five and you've addressed the structural gap that keeps
 most $25M specialty food brands from reaching $50M: they grew the revenue without
 building the operational infrastructure underneath it.
 
-The next two decisions answer a different question. Not what's leaking from the
-current business — but where the money actually goes between the order
-confirmation and the bank deposit. These are the decisions that make the full
-picture visible for the first time.
+The next two decisions answer a different question. Not what's leaking — but
+where the margin actually lives: which channels are returning the most per dollar
+invested, and where revenue goes dark between the order confirmation and the bank
+deposit. These are the decisions that make the full picture visible for the first time.
 
 ---
 
@@ -268,12 +268,11 @@ attention, trade budget, and ranging priorities next quarter.
 Revenue reporting shows gross revenue by channel. It doesn't show contribution
 per dollar of cost — broker fees, co-op advertising, slotting, distributor
 margin, and chargeback exposure vary dramatically by channel, and none of that
-comes off the top in a standard P&L. You optimize for the channels that look
-largest. The largest-looking channel and the most profitable channel are rarely
+comes off the top in a standard P&L. You grow the channels that look largest. The largest-looking channel and the most profitable channel are rarely
 the same one.
 
-At $5M, gross margin by channel is directionally useful because you're in two or
-three accounts and can feel the difference. At $25M, operating without
+At $5M, gross margin by channel is useful because you're in two or three accounts
+and can feel the difference. At $25M, operating without
 per-channel contribution accounting means your trade investment is going to the
 channel with the biggest revenue number — which is usually the most demanding
 buyer relationship, the highest deduction rate, and the thinnest net margin. The
@@ -303,7 +302,7 @@ Revenue from a confirmed order goes through multiple handoffs before it becomes
 cash. Deductions taken off the invoice, disputed chargebacks, net payment terms,
 volume rebates, settlement discounts — each reduces the final deposit. Your P&L
 shows a strong quarter. Your bank account doesn't agree. The difference is not
-an accounting error. It's the invoice-to-cash waterfall, and nobody has mapped it.
+an accounting error. It's the Contract-to-Cash waterfall, and nobody has mapped it.
 
 The leakage is structural, not random. Each dollar you invoice travels through
 a defined set of handoffs with a known leakage rate at each step — and each
@@ -313,7 +312,7 @@ the accounting system. The deductions are in a spreadsheet. The chargebacks are
 in the dispute queue. No one has looked at all three together.
 
 At $5M, the founder knows the gap exists because they reconcile the bank
-statement themselves. At $25M, it's a 13-cent structural gap on every dollar you
+statement themselves. At $25M, it's a 13.5-cent structural gap on every dollar you
 invoice — $2M or more in annual leakage that no one has explicitly attributed or
 decided to address. The Sankey chart from the Contract-to-Cash model makes this
 visible in a way that a P&L report never does: each branch of the flow has a
@@ -326,7 +325,7 @@ disappears.
 86.5¢ per dollar invoiced reached cash. Combined leakage $2,178,000. B2B
 leakage 12.5%; time-to-cash 22–29 days. Before: leakage measured only as the
 difference between gross revenue and bank deposits, with no attribution. After:
-full invoice-to-cash waterfall mapped by leakage type, enabling intervention at
+full Contract-to-Cash waterfall mapped by leakage type, enabling intervention at
 the highest-value gaps.
 :::
 
@@ -482,8 +481,8 @@ into the ten decisions that determine whether you scale or stall.
 
 ::: {.cta-block}
 
-**Not sure where to start?** Take the 5-minute Retail Readiness Assessment — it
-tells you which of these ten structural gaps is threatening your margin right now.
+**Pursuing a new retail account?** The Retail Readiness Assessment tells you what's
+blocking you — before you sign the PO.
 
 → [lailara.com/retail-readiness](https://lailara.com/retail-readiness)
 
