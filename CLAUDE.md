@@ -30,6 +30,7 @@ and know exactly where to start?
 - HANDOFF.md — current session state
 - PLAN.md — current work arc
 - FAILURES.md — things tried that didn't work
+- `docs/solutions/` — structured learnings from /ce:compound, searchable by module, problem_type, and tags (use /ce:learnings-researcher to query)
 
 Read PLAN.md and HANDOFF.md at session start. DECISIONS.md and
 FAILURES.md as relevant.
