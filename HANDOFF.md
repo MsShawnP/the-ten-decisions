@@ -108,6 +108,19 @@ Nothing is broken. dist/ PDFs are ready to use as-is if needed urgently.
 
 **State:** manifesto.qmd 3,842 words / 13 pages. exec-summary.qmd 1,049 words / 4 pages. All /ce:review findings resolved. dist/ PDFs current. All pushed. Nothing broken.
 
-**Next:** Hand dist/ PDFs to homepage build (user does HTML). Run /ce:compound to capture learnings before context fades.
+**Next:** Run /ce:compound to capture learnings. Homepage build is out of scope — user handles separately.
+
+---
+
+## 2026-05-28 — /ce:compound complete; project fully closed
+
+**Did:** Ran /ce:compound (Full mode). Two solution docs written and validated:
+- `docs/solutions/build-errors/quarto-pagedjs-cli-windows-exe-wrapper-2026-05-28.md`
+- `docs/solutions/developer-experience/edit-tool-grep-first-pattern-2026-05-28.md`
+CLAUDE.md updated with docs/solutions/ discoverability entry. v1.0-ship-ready tag on dist/ PDFs.
+
+**State:** Project complete. dist/ PDFs ship-ready. Homepage build explicitly out of scope — user handles separately. One open item: success metric (one qualified C-suite read).
+
+**Next:** Success metric — when a qualified prospect at a specialty food brand ($3M–$50M) reads and engages with the manifesto, log it against PLAN.md's remaining checkbox.
 
 ---
