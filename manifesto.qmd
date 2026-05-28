@@ -49,8 +49,8 @@ The numbers don't compound cleanly. They compound catastrophically.
 A fulfillment shortfall doesn't just cost you the revenue on the short-shipped
 order. It triggers a chargeback notice that arrives 45 days later — requiring
 evidence your team never captured in real time. That chargeback strains cash at
-the same moment your next production run needs funding. The cash gap delays the
-product data cleanup that would have stopped the next round of onboarding errors.
+the same moment your next production run needs funding. While the team manages the cash shortfall, the catalog errors that will trigger
+the same chargebacks at your next retailer onboarding go unfixed.
 And while all of that is compounding, the channel you're investing to grow turns
 out to be the one delivering the thinnest margin — because no one ever modeled
 the contribution per dollar invested by channel. The weekly report that would
