@@ -57,3 +57,24 @@ to Node.js. Smoke test passes. DECISIONS.md updated.
 **Status:** Resolved (pagedjs-cli.exe C# wrapper in npm global bin)
 
 **Tags:** quarto, pdf-engine, chromium, pagedjs-cli, windows-path, haskell-findexecutable, csc.exe
+
+---
+
+### 2026-05-28 — Edit tool "string not found" when replacing text from review notes
+
+**Attempted:** Used Edit tool with strings copied from /ce:review findings to replace text in
+manifesto.qmd and exec-summary.qmd. Several calls failed immediately with "String to replace
+not found in file."
+
+**Why it didn't work:** The review notes quoted strings as single-line prose, but the actual
+file had the same text wrapped across two lines at a different column break. The Edit tool
+requires an exact character-for-character match including all whitespace and newlines — a
+string that wraps at column 72 in the file won't match if the review note had it on one line.
+
+**What we tried instead:** Grepped for a distinctive substring of the target text (e.g., the
+first 4–5 unique words) to find the exact multi-line form in the file, then used that exact
+form in the Edit call. Worked every time.
+
+**Status:** Resolved (grep-first pattern)
+
+**Tags:** edit-tool, string-not-found, line-wrapping, grep-first, review-workflow

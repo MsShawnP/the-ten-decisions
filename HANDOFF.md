@@ -99,3 +99,15 @@ Nothing is broken. dist/ PDFs are ready to use as-is if needed urgently.
 **Next:** Implement Tier 1 + Tier 2 fixes in manifesto.qmd and exec-summary.qmd. Re-render both documents. Copy distributable PDFs to dist/. Then /ce:review is checked off in PLAN.md and the project is ready to ship.
 
 ---
+
+## 2026-05-28 — All review findings resolved; documents ship-ready
+
+**Started from:** /ce:review complete with 11 findings pending implementation.
+
+**Did:** Implemented all 11 Tier 1 + Tier 2 fixes (cost table arithmetic, D7/D4 scope qualifiers, Contract-to-Cash terminology, 13.5-cent precision, fill rate, D5→D6 transition rewrite, jargon/hedging, CTA framing, short-ship spelling). Fixed A3 doom loop (bandwidth argument, not cash). Verified A7 not a real double-count. Fixed A5 Cinderhaven framing ("practitioner benchmarks"). Pushed all commits.
+
+**State:** manifesto.qmd 3,842 words / 13 pages. exec-summary.qmd 1,049 words / 4 pages. All /ce:review findings resolved. dist/ PDFs current. All pushed. Nothing broken.
+
+**Next:** Hand dist/ PDFs to homepage build (user does HTML). Run /ce:compound to capture learnings before context fades.
+
+---

@@ -180,6 +180,15 @@ during /ce:brainstorm]
   to a specific portfolio piece with a specific methodology.
 - **Scope:** Manifesto opening, homepage headline, all distribution
 
+### 2026-05-28 — Grep before Edit when applying review findings to .qmd files
+- **Why:** Review notes and session summaries quote text as single-line prose.
+  The actual .qmd files wrap at different column breaks. Edit tool requires an
+  exact character-for-character match including newlines — a string from a
+  review note will fail if the file wraps it differently.
+- **Scope:** Any session applying /ce:review or similar findings to .qmd source files
+- **Do not:** Copy strings from review notes directly into Edit calls without
+  first grepping for a distinctive substring to find the exact multi-line form.
+
 ---
 
 ## Reversed / Superseded
