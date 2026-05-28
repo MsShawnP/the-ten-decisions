@@ -62,7 +62,7 @@ catastrophically — not all at once. Quietly, quarter after quarter, until the
 business that should be scaling is instead treading water.
 
 To make this concrete, we built Cinderhaven Provisions —
-a composite case study brand, modeled on real industry patterns at the $25M
+a composite case study brand, built from practitioner benchmarks at the $25M
 revenue scale. Every dollar figure you'll see in the sections below comes from
 Cinderhaven's synthetic dataset. Not a real client. Not a promised result. A
 demonstration of what the data looks like when you model it honestly against a
