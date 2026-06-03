@@ -34,3 +34,7 @@ See PLAN.md for the current work arc and HANDOFF.md for session state.
 ## Tech
 
 TBD — see DECISIONS.md once the stack decision is logged.
+
+---
+
+Built by [Lailara LLC](https://lailarallc.com) — data hygiene and analytics consulting for specialty food brands scaling into national retail.
