@@ -30,7 +30,7 @@ The first five decisions are about what you have today.
 
 Which SKUs are paying their way — and which ones are consuming production
 capacity, broker attention, and warehouse space without earning back their keep.
-At 45 SKUs across four channels, you need a model to do what your gut did at 15.
+At 50 SKUs across ten channels, you need a model to do what your gut did at 15.
 
 Whether your product data — GTINs, item attributes, case dimensions, GS1 registry
 entries — will hold up when the next retailer asks for it, or generate chargeback

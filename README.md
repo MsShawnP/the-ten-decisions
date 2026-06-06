@@ -20,6 +20,10 @@ SKU decisions, product data, deduction recovery, fulfillment, EDI, channel
 profitability, revenue lifecycle, retail readiness, launch economics, and
 weekly operational discipline.
 
+## Data contract
+
+The ten decisions reference **Cinderhaven Provisions**, a fictional $25M specialty food brand used across the consulting portfolio. Specific figures (SKU counts, channel economics, deduction rates) come from the canonical data spec in `cinderhaven-data-platform/CINDERHAVEN_CANONICAL.md`. This project does not consume data files directly — it references the brand narratively.
+
 ## How to run
 
 *Stack TBD — to be determined during planning. See PLAN.md.*
