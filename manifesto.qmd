@@ -128,9 +128,10 @@ month of chargebacks.
 **Cinderhaven Provisions — Composite case study**
 
 Cinderhaven's GTIN and item attribute failures were generating approximately
-$60,000 per year in chargebacks — a $5,000/month run rate from defects that were
-avoidable with a one-time catalog audit. Before: GTIN failures present across the
-full catalog. After: verified GS1 registry entries, chargeback run rate near zero.
+$461,000 per year in chargebacks — nearly $38,000 per month from defects that were
+avoidable with a one-time catalog audit. Before: GTIN failures present across 24%
+of SKUs, chargebacks concentrated in the worst-quality products. After: verified
+GS1 registry entries, chargeback run rate near zero.
 :::
 
 → **Product Data Health Audit:** GTIN validation, mandatory attribute mapping, and

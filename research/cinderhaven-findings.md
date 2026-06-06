@@ -16,9 +16,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 2: Product Data Health
 **Source repo:** `product-data-health-audit`
-**Dollar figure:** $60,000/year ($5,000/month run rate in chargebacks from data defects)
-**Finding:** "Cinderhaven's product data failures were generating approximately $60,000 per year in chargebacks — avoidable with a one-time data audit."
-**Before/After:** Before: GTIN/UPC failures present across the full catalog, chargebacks accumulating monthly. After: clean data state with verified GS1 registry entries, chargeback run rate drops to near zero.
+**Dollar figure:** $461,000/year (~$38,000/month run rate in chargebacks from data defects)
+**Finding:** "Cinderhaven's product data failures were generating approximately $461,000 per year in chargebacks — avoidable with a one-time catalog audit."
+**Before/After:** Before: GTIN failures present across 24% of SKUs, chargebacks concentrated in worst-quality products. After: clean data state with verified GS1 registry entries, chargeback run rate drops to near zero.
 
 ---
 
