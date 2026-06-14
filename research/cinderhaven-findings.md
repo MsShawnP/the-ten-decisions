@@ -16,7 +16,7 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 2: Product Data Health
 **Source repo:** `product-data-health-audit`
-**Dollar figure:** $461,000/year (~$38,000/month run rate in chargebacks from data defects)
+**Dollar figure:** $93,000 a year in retailer chargebacks traced directly to product data defects
 **Finding:** "Cinderhaven's product data failures were generating approximately $461,000 per year in chargebacks — avoidable with a one-time catalog audit."
 **Before/After:** Before: GTIN failures present across 24% of SKUs, chargebacks concentrated in worst-quality products. After: clean data state with verified GS1 registry entries, chargeback run rate drops to near zero.
 
@@ -48,7 +48,7 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 6: Channel Profitability
 **Source repo:** `channel-profitability-analysis` (also cross-referenced in `where-the-money-comes-from`, `src/data/channels.json`)
-**Dollar figure:** 3.01 margin points between Whole Foods (82.65%) and Costco (79.64%) — the best and worst retail channels; distributors blended at 90.16% vs. retail blended at 81.1%; $90,844 more contribution on the same $1M invested in distribution vs. retail
+**Dollar figure:** 3.01 margin points between Whole Foods (82.65%) and Costco (79.64%) — the best and worst retail channels; distributors blended at 90.16% vs. retail blended at 81.1%; Retail channels returned $53,000 more per million deployed than distribution.
 **Finding:** "Cinderhaven's best-performing retail channel delivered 3 margin points more than the worst — a gap invisible without per-channel contribution accounting."
 **Before/After:** Before: capital allocation driven by gross revenue rank (Walmart #1). After: contribution-margin ranking reveals distributor channels at 90¢/dollar vs. retail at 81¢/dollar — an 11.2% difference in returns on the same incremental dollar invested.
 

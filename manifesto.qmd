@@ -128,8 +128,8 @@ month of chargebacks.
 **Cinderhaven Provisions — Composite case study**
 
 Cinderhaven's GTIN and item attribute failures were generating approximately
-$461,000 per year in chargebacks — nearly $38,000 per month from defects that were
-avoidable with a one-time catalog audit. Before: GTIN failures present across 24%
+$93,000 a year in chargebacks traced to five product data
+defects — avoidable with a one-time catalog audit. Before: GTIN failures present across 24%
 of SKUs, chargebacks concentrated in the worst-quality products. After: verified
 GS1 registry entries, chargeback run rate near zero.
 :::
@@ -285,9 +285,11 @@ invest next.
 **Cinderhaven Provisions — Composite case study**
 
 3.01 margin-point gap between Cinderhaven's best retail channel (Whole Foods,
-82.65%) and worst (Costco, 79.64%). Distributor channels blended at 90.16% vs.
-retail at 81.1%. On the same $1M incremental investment, the distributor channel
-returned $90,844 more in contribution margin — invisible without a per-channel
+82.65%) and worst (Costco, 79.64%). Retail channels produced a 50.6% contribution margin after COGS
+and trade deductions. Distribution came in at 45.3% — a 5.3-point
+gap. The conventional assumption that distribution is the cheaper
+route did not survive the cost accounting. On the same $1M incremental investment, the distributor channel
+returned $53,000 more per million deployed through retail than distribution — invisible without a per-channel
 contribution model.
 :::
 
