@@ -24,9 +24,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 3: Deduction Recovery
 **Source repo:** `retailer-deduction-recovery`
-**Dollar figure:** $1,020,000 in deductions never disputed (9,757 individual deductions); $534,903.85 total annual deduction volume; 16.52% recovery rate
+**Dollar figure:** $974K in deductions never disputed (13,743 individual deductions); $515K total annual deduction volume; 16.16% recovery rate
 **Finding:** "Cinderhaven had $1.02 million in disputed deductions that were never contested — 83% of deductions went unrecovered because the team lacked the systematic process to fight them."
-**Before/After:** Before: 12,604 labor hours (6.06 FTE equivalent) spent on deduction management with 16.52% recovery. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
+**Before/After:** Before: 15,945 labor hours (7.67 FTE equivalent) spent on deduction management with 16.16% recovery. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
 
 ---
 
@@ -56,8 +56,8 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 7: Revenue Lifecycle
 **Source repo:** `contract-to-cash`
-**Dollar figure:** $2,178,000 in combined leakage; 86.5¢ per dollar invoiced reaches cash; B2B leakage 12.5%; time-to-cash 22–29 days
-**Finding:** "Cinderhaven was losing 13.5 cents on every dollar invoiced — $2.178M in combined leakage — between invoice generation and cash receipt."
+**Dollar figure:** $2,178,000 in combined leakage; 86¢ per dollar invoiced reaches cash; B2B leakage 12.5%; time-to-cash 22–29 days
+**Finding:** "Cinderhaven was losing ~14 cents on every dollar invoiced — $2.178M in combined leakage — between invoice generation and cash receipt."
 **Before/After:** Before: leakage measured only as the difference between gross revenue and bank deposits, with no attribution to deductions, timing, or process gaps. After: full invoice-to-cash waterfall mapped by leakage type, enabling targeted intervention at the highest-value gaps.
 
 ---
