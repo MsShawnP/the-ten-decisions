@@ -8,7 +8,7 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 1: SKU Rationalization
 **Source repo:** `where-the-money-comes-from`, `src/data/channels.json` and `short-ship-cost/web/public/data/cost_by_sku.json`
-**Dollar figure:** $1,066,480 — highest-cost single SKU (Extra Virgin Olive Oil, CHP-PS-004) in short-shipping costs alone; bottom-quartile SKUs averaged $710,000 each in the same period
+**Dollar figure:** $215,000 over three years — highest-cost single SKU (CHP-PS-009, Maple Syrup Grade A), driven primarily by forgone revenue on shorted units
 **Finding:** "Cinderhaven's top-performing SKU generated 23 times the short-shipping cost exposure of the lowest — a spread invisible until you model which SKUs are actually driving demand versus which ones are consuming fulfillment capacity."
 **Before/After:** N/A — this is a point-in-time analysis of the FY2024–2026 window. The before state is operating without per-SKU cost attribution; the after state is knowing which SKUs to cut or protect before making the next ranging decision.
 
@@ -32,9 +32,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 4: Fulfillment Reliability
 **Source repo:** `short-ship-cost`, `web/public/data/cost_summary.json` and `web/public/data/meta.json`
-**Dollar figure:** $33,128,550 in total short-shipping costs over three years ($11,042,850/year); 69.19% overall fill rate; $2,055,467 in OTIF fines; $6,422,619 in deauthorization risk
+**Dollar figure:** $6.6M in fulfillment shortfall costs over three years at 92% fill — $5.5M in forgone revenue, $369K in compliance fines, $344K in chargebacks, $331K in deductions
 **Finding:** "Cinderhaven was shipping at a 69% fill rate — leaving $11 million in annual cost exposure across lost revenue, OTIF fines, and deauthorization risk that never appeared on a P&L because the original orders had been overwritten."
-**Before/After:** Before: fill rate 69.19%, no visibility into cost of shorts because the legacy system overwrote original orders. After: 90% fill rate scenario recovers $20.6M of the $33.1M three-year cost; deauthorization risk drops from $6.4M to $3.7M.
+**Before/After:** Before: fill rate 69.19%, no visibility into cost of shorts because the legacy system overwrote original orders. After: Moving from 92% to 95% fill recovers $5.4M of the $6.6M — 81% of the total shortfall cost.
 
 ---
 

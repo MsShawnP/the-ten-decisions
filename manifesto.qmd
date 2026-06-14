@@ -20,7 +20,7 @@ problem.
 You've outgrown the spreadsheets and gut-checks that got you here. The decision
 infrastructure your business needs — the systems that would make ten operational
 choices visible, trackable, and defensible — doesn't exist yet. And the cost of
-that gap runs between **$1.4 million and $3.1 million a year.**
+that gap runs between **$3.1 million and $4.6 million a year.**
 
 ---
 
@@ -31,16 +31,16 @@ Here is what those ten gaps actually cost, at $25 million in annual revenue:
 | Decision | Annual cost of blindness |
 |---|---|
 | SKU decisions blind | $50K–$150K |
-| Product data not retail-ready | $25K–$100K |
-| Deductions unrecovered | $180K–$350K |
-| Fulfillment failures unquantified | $200K–$500K (OTIF fine exposure) |
+| Product data not retail-ready | $80K–$100K |
+| Deductions unrecovered | $350K–$500K |
+| Fulfillment failures unquantified | $2,000K–$2,400K |
 | EDI creating chargebacks | $25K–$50K |
-| Channel profitability invisible | $300K–$500K |
-| Revenue going dark between systems | $400K–$700K (payment timing & invoice leakage) |
+| Channel profitability invisible | $50K–$100K |
+| Revenue going dark between systems | $350K–$500K |
 | Retailer launch unplanned | $200K–$750K |
 | Retailer costs unmodeled | Entire slotting investment at risk |
 | No weekly pulse | Compounds all above — caught 6–12 weeks late |
-| **Total across all ten decisions** | **$1.4M–$3.1M** |
+| **Total across all ten decisions** | **$3.1M–$4.6M** |
 
 :::
 
@@ -94,9 +94,8 @@ SKUs are costing you shelf space costs $50K–$150K a year at the $25M scale.
 **Cinderhaven Provisions — Composite case study**
 
 Cinderhaven's top-performing SKU (Extra Virgin Olive Oil, CHP-PS-004) generated
-$1,066,480 in short-shipping cost exposure — 23 times the cost of the
-lowest-exposure SKU in the same period. Bottom-quartile SKUs averaged $710,000
-each. The spread was invisible until per-SKU cost attribution was modeled.
+$2.2M a year in fulfillment shortfall costs across four dimensions
+— forgone revenue, compliance fines, chargebacks, and deductions. The spread was invisible until per-SKU cost attribution was modeled.
 :::
 
 → **Velocity Decision Tool:** per-SKU velocity, cost, and margin model that shows
@@ -192,16 +191,17 @@ and the ability to make the case for recovery.
 At $5M, a short-ship is a text message to your co-packer. At $25M, it's OTIF
 fines and canceled reorders — and a buyer making a permanent ranging decision at
 the next category review. Walmart charges 3% of the PO value for every
-non-compliant order. At $25M in retail revenue, a roughly 69% fill rate isn't just a
+non-compliant order. At $25M in retail revenue, a 92% portfolio fill rate — high enough to look acceptable, low
+enough to cost $2.2M a year isn't just a
 performance problem. It's a $200K–$500K annual fine structure running silently
 in the background while the product team is focused on the next launch.
 
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-69.19% overall fill rate. $33,128,550 in total short-shipping costs over three
-years — $11M annually. $2,055,467 in OTIF fines. $6,422,619 in deauthorization
-risk. The legacy system had overwritten original orders with shipped quantities,
+92.7% overall fill rate. $6.6M in total fulfillment shortfall costs
+over three years — $2.2M annually across four dimensions. Every
+dollar traces to a platform event. The legacy system had overwritten original orders with shipped quantities,
 making the cost of the gap invisible until it was modeled from raw PO data.
 :::
 
