@@ -161,9 +161,9 @@ discipline and a response calendar.
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-$1.35M in annual deductions across 16,917 line items; 16.16% recovery rate; $974K in
-deductions never contested across 13,743 line items. Cinderhaven's team spent the equivalent of 7.67 FTEs
-on deduction management annually — and recovered less than one dollar in six.
+$1.35M in deductions across 16,917 line items over 36 months; ~16% of deduction dollars
+recovered through disputes; ~42% win rate per disputed dollar; 3,363 chargebacks
+(2,879 retailer + 484 distributor). ~$380K/yr in operational deduction waste.
 After: systematic dispute process with evidence templates and retailer-specific
 response calendars targeting >50% recovery.
 :::
@@ -199,8 +199,8 @@ in the background while the product team is focused on the next launch.
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-92.7% overall fill rate. $6.6M in total fulfillment shortfall costs
-over three years — $2.2M annually across four dimensions. Every
+92.0% fill rate. $6.6M in total fulfillment shortfall costs
+over 36 months — ~$2.2M/yr across four dimensions. Every
 dollar traces to a platform event. The legacy system had overwritten original orders with shipped quantities,
 making the cost of the gap invisible until it was modeled from raw PO data.
 :::

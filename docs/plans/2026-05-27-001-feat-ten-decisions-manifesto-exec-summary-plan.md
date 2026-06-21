@@ -66,7 +66,7 @@ the-ten-decisions/
 | Cinderhaven framing | Explicit composite case study label on first mention | Never implies real client. (see origin) |
 | Callout box style | Dark card — `background: #1a1a1a`, `color: #ffffff` | Named callout box per section: "Cinderhaven Provisions — Composite case study". |
 | Exec summary structure | Flowing prose, no per-decision sections or callout boxes | At ~1,000 words, 10 sections would be too compressed to be meaningful. (see origin) |
-| Cost table placement | Setup section, before Decision 1 | Front-loads credibility. Reader sees full $1.4M–$3.1M breakdown before first decision section. (see origin) |
+| Cost table placement | Setup section, before Decision 1 | Front-loads credibility. Reader sees full $3.1M–$4.6M breakdown before first decision section. (see origin) |
 | Commit message quoting | Heredoc pattern for any message containing `$` | PowerShell/bash variable expansion silently strips `$` in double-quoted strings. Use `git commit -m "$(cat <<'EOF' ... EOF)"`. (see learnings) |
 | Decision 1 repo | `where-the-money-comes-from` | Requirements doc listed `retail-velocity-decision-tool` — corrected by repo scan. Actual directory is `where-the-money-comes-from`. |
 
@@ -111,9 +111,9 @@ The following data points were extracted during planning and will seed `research
 | Decision | Repo | Key finding |
 |---|---|---|
 | 2 — Product data | `product-data-health-audit` | Annual chargebacks from data defects: ~$5K/month run rate; GTIN/UPC failures in full catalog; label/barcode share of chargebacks = `data_defect_pct`%; fix time = `total_fix_hours` hours total |
-| 3 — Deductions | `retailer-deduction-recovery` | $534,903.85/year; 16.52% recovery rate; 9,757 deductions never disputed ($1.02M); 12,604 labor hours = 6.06 FTE |
+| 3 — Deductions | `retailer-deduction-recovery` | $1.35M total backlog across 16,917 line items; ~16% recovery rate; ~42% win rate per disputed dollar; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational waste |
 | 6 — Channel profitability | `channel-profitability-analysis` | Retailers retain 80–83¢/dollar; distributors retain 90¢/dollar; 3 margin points gap between best and worst retailer; Walmart largest by gross but not best by net margin % |
-| 7 — Revenue lifecycle | `contract-to-cash` | 86.5¢ per dollar invoiced reaches cash; combined leakage $2.178M; B2B leakage 12.5%; time-to-cash 22–29 days |
+| 7 — Revenue lifecycle | `contract-to-cash` | 86¢ per dollar invoiced reaches cash (85–87¢ band); combined leakage $2.178M; B2B leakage 12.5%; time-to-cash 22–29 days |
 | 9 — Launch economics | `cost-of-saying-yes` | Walmart 4-SKU case: Year 1 net = -$36,320; peak cash trough Month 4 = -$165,000; break-even Month 9; working capital required $165K |
 | 10 — Weekly pulse | `monday-morning-report` | 12-week Cinderhaven example: cash position $1.5M–$2.5M; disputed AR declined from $195K to $88K over 12 weeks; recovered shelf position worth $80K–$150K annual velocity |
 
@@ -314,7 +314,7 @@ Record all ten in `research/decision-phrasings.md` with:
 - No setup, no context, no credentials — straight to the pain
 
 *Setup (~300 words):*
-- Introduces the aggregate cost number ($1.4M–$3.1M) immediately
+- Introduces the aggregate cost number ($3.1M–$4.6M) immediately
 - Presents the aggregate cost table (all 10 rows, source: origin)
 - Makes the cascade / doom loop explicit as a paragraph (not a list): "Fulfillment failures trigger deduction spikes. Deduction spikes create cash gaps..." — this framing makes the aggregate feel inevitable, not inflated
 - Introduces Cinderhaven Provisions on first mention: "To show what these frameworks actually surface, we built Cinderhaven Provisions — a composite case study brand modeled on real industry patterns at the $25M scale."
@@ -413,14 +413,14 @@ Tier callout examples for these five decisions:
 Follow the same template as U6. Key callout data is already known from planning research:
 
 - **Decision 6 (Channel Profitability):** Retailers retain 80–83¢/dollar; distributors retain 90¢/dollar; 3 margin points gap between best and worst retailer. Signature visual reference: per-unit contribution chart from `channel-profitability-analysis`.
-- **Decision 7 (Revenue Lifecycle):** 86.5¢ per dollar invoiced reaches cash; combined leakage $2.178M; B2B leakage 12.5%. Signature visual reference: Sankey from `contract-to-cash`.
+- **Decision 7 (Revenue Lifecycle):** 86¢ per dollar invoiced reaches cash (85–87¢ band); combined leakage $2.178M; B2B leakage 12.5%. Signature visual reference: Sankey from `contract-to-cash`.
 
 The signature visual callouts (Sankey, per-unit contribution chart) should be referenced in prose — "the per-unit contribution chart shows..." — since the PDF manifesto does not include interactive visuals. These are hooks for the homepage version.
 
 **Test scenarios:**
 - Both sections present, both callout boxes populated with specific dollar figures
 - Decision 6 callout references the channel margin gap
-- Decision 7 callout references the 86.5¢ per dollar figure or the $2.178M leakage
+- Decision 7 callout references the 86¢ per dollar figure (85–87¢ band) or the $2.178M leakage
 - Word count: 300–500 words each
 
 **Verification:** Both sections render in PDF with correct callout box styling.
@@ -529,7 +529,7 @@ No callout boxes. No tier callouts (maximum 1–2 in the entire document). No co
 - No subheadings per decision (flowing prose only)
 - No Cinderhaven callout boxes
 - All ten decisions named
-- Aggregate cost number (`$1.4M–$3.1M`) present in cold open
+- Aggregate cost number (`$3.1M–$4.6M`) present in cold open
 - Retail Readiness Scorecard CTA present at close
 - Read-through: a reader who only reads this document understands the full thesis and knows what to do next
 

@@ -17,24 +17,24 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 ## Decision 2: Product Data Health
 **Source repo:** `product-data-health-audit`
 **Dollar figure:** $93,000 a year in retailer chargebacks traced directly to product data defects
-**Finding:** "Cinderhaven's product data failures were generating approximately $461,000 per year in chargebacks — avoidable with a one-time catalog audit."
+**Finding:** "~$93K/yr in chargeback cost attributable to data-quality defects — avoidable with a one-time catalog audit."
 **Before/After:** Before: GTIN failures present across 24% of SKUs, chargebacks concentrated in worst-quality products. After: clean data state with verified GS1 registry entries, chargeback run rate drops to near zero.
 
 ---
 
 ## Decision 3: Deduction Recovery
 **Source repo:** `retailer-deduction-recovery`
-**Dollar figure:** $974K in deductions never disputed (13,743 individual deductions); $515K total annual deduction volume; 16.16% recovery rate
-**Finding:** "Cinderhaven had $1.02 million in disputed deductions that were never contested — 83% of deductions went unrecovered because the team lacked the systematic process to fight them."
-**Before/After:** Before: 15,945 labor hours (7.67 FTE equivalent) spent on deduction management with 16.16% recovery. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
+**Dollar figure:** $1.35M in deductions across 16,917 line items over 36 months; ~16% of deduction dollars recovered through disputes; ~42% win rate per disputed dollar; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational deduction waste
+**Finding:** "Cinderhaven recovered ~16% of deduction dollars through disputes, with a ~42% win rate per disputed dollar — most deductions went unrecovered because the team lacked the systematic process to fight them."
+**Before/After:** Before: ~16% of deduction dollars recovered; ~$380K/yr in operational deduction waste; 3,363 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
 
 ---
 
 ## Decision 4: Fulfillment Reliability
 **Source repo:** `short-ship-cost`, `web/public/data/cost_summary.json` and `web/public/data/meta.json`
-**Dollar figure:** $6.6M in fulfillment shortfall costs over three years at 92% fill — $5.5M in forgone revenue, $369K in compliance fines, $344K in chargebacks, $331K in deductions
+**Dollar figure:** $6.6M in total fulfillment shortfall costs over 36 months at 92.0% fill — $5,537,092 in forgone revenue, $368,758 in compliance fines, $344,066 in chargebacks, $331,289 in deductions; ~$2.2M/yr across four dimensions
 **Finding:** "Cinderhaven was shipping at a 69% fill rate — leaving $11 million in annual cost exposure across lost revenue, OTIF fines, and deauthorization risk that never appeared on a P&L because the original orders had been overwritten."
-**Before/After:** Before: fill rate 69.19%, no visibility into cost of shorts because the legacy system overwrote original orders. After: Moving from 92% to 95% fill recovers $5.4M of the $6.6M — 81% of the total shortfall cost.
+**Before/After:** Before: fill rate 69.19%, no visibility into cost of shorts because the legacy system overwrote original orders. After: 92.0% fill rate costs ~$2.2M/yr — every dollar traces to a platform event. Internal OTIF 99.2%; retailer-scored OTIF 88.2% (Walmart 84.5%); OTIF gap 14.8 pts; $57K/yr in OTIF exposure ($23,697 fines + $33,500 velocity damage).
 
 ---
 

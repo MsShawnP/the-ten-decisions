@@ -156,7 +156,7 @@ blindness at $25M revenue:
 | Retailer launch unplanned | $200K–$750K |
 | Retailer costs unmodeled | Entire slotting investment at risk |
 | No weekly pulse | Compounds all above — caught 6–12 weeks late |
-| **Total** | **$1.4M–$3.1M** |
+| **Total** | **$3.1M–$4.6M** |
 
 ### The cascade framing (in Setup section)
 
