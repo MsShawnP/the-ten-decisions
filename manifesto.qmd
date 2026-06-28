@@ -161,11 +161,13 @@ discipline and a response calendar.
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-$1.35M in deductions across 16,917 line items over 36 months; ~16% of deduction dollars
-recovered through disputes; ~42% win rate per disputed dollar; 3,363 chargebacks
-(2,879 retailer + 484 distributor). ~$380K/yr in operational deduction waste.
-After: systematic dispute process with evidence templates and retailer-specific
-response calendars targeting >50% recovery.
+$1.35M in deductions across 16,917 line items over 36 months. ~15% of deduction
+dollars recovered — not because disputes fail, but because most are never filed.
+~42% win rate per disputed dollar, but only ~35% of deductions are ever disputed;
+~65% go uncontested ($826K in silent write-offs). 3,363 chargebacks (2,879 retailer
++ 484 distributor). ~$380K/yr in operational deduction waste. After: systematic
+dispute process with evidence templates and retailer-specific response calendars
+targeting >50% recovery.
 :::
 
 → **Retailer Deduction Recovery:** deduction intelligence platform with automated

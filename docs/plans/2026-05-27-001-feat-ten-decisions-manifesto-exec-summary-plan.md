@@ -111,7 +111,7 @@ The following data points were extracted during planning and will seed `research
 | Decision | Repo | Key finding |
 |---|---|---|
 | 2 — Product data | `product-data-health-audit` | Annual chargebacks from data defects: ~$5K/month run rate; GTIN/UPC failures in full catalog; label/barcode share of chargebacks = `data_defect_pct`%; fix time = `total_fix_hours` hours total |
-| 3 — Deductions | `retailer-deduction-recovery` | $1.35M total backlog across 16,917 line items; ~16% recovery rate; ~42% win rate per disputed dollar; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational waste |
+| 3 — Deductions | `retailer-deduction-recovery` | $1.35M total backlog across 16,917 line items; ~15% recovery rate; ~42% win rate per disputed dollar, but only ~35% ever disputed; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational waste |
 | 6 — Channel profitability | `channel-profitability-analysis` | Retailers retain 80–83¢/dollar; distributors retain 90¢/dollar; 3 margin points gap between best and worst retailer; Walmart largest by gross but not best by net margin % |
 | 7 — Revenue lifecycle | `contract-to-cash` | 86¢ per dollar invoiced reaches cash (85–87¢ band); combined leakage $2.178M; B2B leakage 12.5%; time-to-cash 22–29 days |
 | 9 — Launch economics | `cost-of-saying-yes` | Walmart 4-SKU case: Year 1 net = -$36,320; peak cash trough Month 4 = -$165,000; break-even Month 9; working capital required $165K |

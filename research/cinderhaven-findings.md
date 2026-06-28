@@ -24,9 +24,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 3: Deduction Recovery
 **Source repo:** `retailer-deduction-recovery`
-**Dollar figure:** $1.35M in deductions across 16,917 line items over 36 months; ~16% of deduction dollars recovered through disputes; ~42% win rate per disputed dollar; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational deduction waste
-**Finding:** "Cinderhaven recovered ~16% of deduction dollars through disputes, with a ~42% win rate per disputed dollar — most deductions went unrecovered because the team lacked the systematic process to fight them."
-**Before/After:** Before: ~16% of deduction dollars recovered; ~$380K/yr in operational deduction waste; 3,363 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
+**Dollar figure:** $1.35M in deductions across 16,917 line items over 36 months; ~15% of deduction dollars recovered; ~42% win rate per disputed dollar, but only ~35% of deductions are ever disputed; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational deduction waste
+**Finding:** "Cinderhaven wins 42% of the disputes it files. The problem isn't winning — it's filing. Two-thirds of deductions are written off without a fight."
+**Before/After:** Before: ~15% of deduction dollars recovered — not because disputes fail, but because most are never filed; ~65% of deductions go uncontested ($826K in silent write-offs); 3,363 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
 
 ---
 
