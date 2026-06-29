@@ -31,10 +31,10 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 ---
 
 ## Decision 4: Fulfillment Reliability
-**Source repo:** `short-ship-cost`, `web/public/data/cost_summary.json` and `web/public/data/meta.json`
-**Dollar figure:** $6.6M in total fulfillment shortfall costs over 36 months at 92.0% fill — $5,537,092 in forgone revenue, $368,758 in compliance fines, $344,066 in chargebacks, $331,289 in deductions; ~$2.2M/yr across four dimensions
-**Finding:** "Cinderhaven was shipping at a 69% fill rate — leaving $11 million in annual cost exposure across lost revenue, OTIF fines, and deauthorization risk that never appeared on a P&L because the original orders had been overwritten."
-**Before/After:** Before: fill rate 69.19%, no visibility into cost of shorts because the legacy system overwrote original orders. After: 92.0% fill rate costs ~$2.2M/yr — every dollar traces to a platform event. Internal OTIF 99.2%; retailer-scored OTIF 88.2% (Walmart 84.5%); OTIF gap 14.8 pts; $57K/yr in OTIF exposure ($23,697 fines + $33,500 velocity damage).
+**Source repo:** `short-ship-cost`, `web/public/data/validation.json`
+**Dollar figure:** $894K in total fulfillment shortfall costs over 36 months at 99.2% retailer / 99.5% distributor fill — $523,326 in forgone revenue, $164,543 in compliance fines, $118,814 in chargebacks, $87,490 in deductions; ~$298K/yr across four dimensions
+**Finding:** "99% unit fill still costs $300K/yr — the gap between unit fill and in-full is where the money hides. Cinderhaven's internal fill rate looks like excellence; retailers score them at 85%."
+**Before/After:** Before: no visibility into cost of shorts because the legacy system overwrote original orders with shipped quantities. After: 99.2% retailer fill rate costs ~$298K/yr — every dollar traces to a platform event or a published fine schedule. Internal OTIF 99.2%; retailer-scored OTIF 88.2% (Walmart 84.5%); OTIF gap 14.8 pts; $57K/yr in OTIF exposure ($23,697 fines + $33,500 velocity damage).
 
 ---
 
