@@ -20,7 +20,7 @@ problem.
 You've outgrown the spreadsheets and gut-checks that got you here. The decision
 infrastructure your business needs — the systems that would make ten operational
 choices visible, trackable, and defensible — doesn't exist yet. And the cost of
-that gap runs between **$3.1 million and $4.6 million a year.**
+that gap runs between **$1.4 million and $2.3 million a year.**
 
 ---
 
@@ -73,7 +73,7 @@ brand running these ten decisions blind.
 ## "Which SKUs should we keep, kill, or double down on?"
 
 At 15 SKUs, you knew which ones were working because you could watch each one.
-At 45 SKUs across four retailer channels, you need data to do what your gut used
+At 50 SKUs across ten channels, you need data to do what your gut used
 to do. The velocity numbers tell you what's selling. They don't tell you what's
 profitable. They don't tell you which SKUs are generating retailer chargebacks
 because of case-count variability. They don't tell you which SKUs your distributor
@@ -93,8 +93,8 @@ SKUs are costing you shelf space costs $50K–$150K a year at the $25M scale.
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-Cinderhaven's top-performing SKU (Extra Virgin Olive Oil, CHP-PS-004) generated
-$2.2M a year in fulfillment shortfall costs across four dimensions
+Cinderhaven's top-performing SKU (Extra Virgin Olive Oil, CHP-PS-004) was also a
+leading driver of the brand's $298K a year in fulfillment shortfall costs across four dimensions
 — forgone revenue, compliance fines, chargebacks, and deductions. The spread was invisible until per-SKU cost attribution was modeled.
 :::
 
@@ -152,8 +152,8 @@ evidence package and files a response in that window, the deduction becomes
 permanent. Your team handles the ones that feel urgent and lets the small ones
 go. The small ones add up.
 
-At $5M, a late deduction dispute is a bad Tuesday. At $25M, it's $180K–$350K in
-expired dispute windows and a team that's too busy to fight back — because no
+At $5M, a late deduction dispute is a bad Tuesday. At $25M, it's $350K–$500K in
+unrecovered deductions and a team that's too busy to fight back — because no
 one has built the system that would let them fight efficiently. The dispute
 process shouldn't require a deduction specialist. It requires documentation
 discipline and a response calendar.
@@ -164,7 +164,7 @@ discipline and a response calendar.
 $1.35M in deductions across 16,917 line items over 36 months. ~15% of deduction
 dollars recovered — not because disputes fail, but because most are never filed.
 ~42% win rate per disputed dollar, but only ~35% of deductions are ever disputed;
-~65% go uncontested ($826K in silent write-offs). 3,363 chargebacks (2,879 retailer
+~65% go uncontested ($826K in silent write-offs). 3,357 chargebacks (2,873 retailer
 + 484 distributor). ~$380K/yr in operational deduction waste. After: systematic
 dispute process with evidence templates and retailer-specific response calendars
 targeting >50% recovery.
@@ -282,19 +282,19 @@ and can feel the difference. At $25M, operating without
 per-channel contribution accounting means your trade investment is going to the
 channel with the biggest revenue number — which is usually the most demanding
 buyer relationship, the highest deduction rate, and the thinnest net margin. The
-channel that feels smallest is often returning 8–10 cents more per dollar than
-your biggest retail account. That spread compounds every time you decide where to
+channel that feels smallest is often returning more per dollar than
+your biggest account by revenue. That spread compounds every time you decide where to
 invest next.
 
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
 3.01 margin-point gap between Cinderhaven's best retail channel (Whole Foods,
-82.65%) and worst (Costco, 79.64%). Retail channels produced a 50.6% contribution margin after COGS
-and trade deductions. Distribution came in at 45.3% — a 5.3-point
+82.65%) and worst (Costco, 79.64%). Retail channels produced a 51.0% contribution margin after COGS
+and trade deductions. Distribution came in at 45.6% — a 5.4-point
 gap. The conventional assumption that distribution is the cheaper
-route did not survive the cost accounting. On the same $1M incremental investment, the distributor channel
-returned $53,000 more per million deployed through retail than distribution — invisible without a per-channel
+route did not survive the cost accounting. On the same $1M incremental investment, retail channels
+returned $54,000 more per million deployed than distribution — invisible without a per-channel
 contribution model.
 :::
 
@@ -320,8 +320,9 @@ the accounting system. The deductions are in a spreadsheet. The chargebacks are
 in the dispute queue. No one has looked at all three together.
 
 At $5M, the founder knows the gap exists because they reconcile the bank
-statement themselves. At $25M, it's a ~14-cent structural gap on every dollar you
-invoice — $2M or more in annual leakage that no one has explicitly attributed or
+statement themselves. At $25M, it's a ~13-cent structural gap on every dollar you
+invoice — roughly $2M a year flowing out through the waterfall, of which
+$350K–$500K is the addressable leakage no one has explicitly attributed or
 decided to address. The Sankey chart from the Contract-to-Cash model makes this
 visible in a way that a P&L report never does: each branch of the flow has a
 dollar amount attached to it, and the branches that go dark are where the margin
@@ -330,8 +331,8 @@ disappears.
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-86¢ per dollar invoiced reached cash. Combined leakage $2,178,000. B2B
-leakage 12.5%; time-to-cash 22–29 days. Before: leakage measured only as the
+87¢ per dollar invoiced reached cash. B2B
+leakage 12.8%; time-to-cash 24–28 days. Before: leakage measured only as the
 difference between gross revenue and bank deposits, with no attribution. After:
 full Contract-to-Cash waterfall mapped by leakage type, enabling intervention at
 the highest-value gaps.

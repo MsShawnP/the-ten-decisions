@@ -15,7 +15,7 @@ the intellectual framework that converts a portfolio of tools into a
 recognizable consulting practice.
 
 **The thesis:** A growing specialty food brand at $25M revenue is likely
-leaving $3.1M–$4.6M/year on the table across ten structural blind spots —
+leaving $1.4M–$2.3M/year on the table across ten structural blind spots —
 SKU decisions, product data, deduction recovery, fulfillment, EDI, channel
 profitability, revenue lifecycle, retail readiness, launch economics, and
 weekly operational discipline.

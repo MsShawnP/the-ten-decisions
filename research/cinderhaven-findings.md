@@ -24,9 +24,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 3: Deduction Recovery
 **Source repo:** `retailer-deduction-recovery`
-**Dollar figure:** $1.35M in deductions across 16,917 line items over 36 months; ~15% of deduction dollars recovered; ~42% win rate per disputed dollar, but only ~35% of deductions are ever disputed; 3,363 chargebacks (2,879 retailer + 484 distributor); ~$380K/yr operational deduction waste
+**Dollar figure:** $1.35M in deductions across 16,917 line items over 36 months; ~15% of deduction dollars recovered; ~42% win rate per disputed dollar, but only ~35% of deductions are ever disputed; 3,357 chargebacks (2,873 retailer + 484 distributor); ~$380K/yr operational deduction waste
 **Finding:** "Cinderhaven wins 42% of the disputes it files. The problem isn't winning — it's filing. Two-thirds of deductions are written off without a fight."
-**Before/After:** Before: ~15% of deduction dollars recovered — not because disputes fail, but because most are never filed; ~65% of deductions go uncontested ($826K in silent write-offs); 3,363 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
+**Before/After:** Before: ~15% of deduction dollars recovered — not because disputes fail, but because most are never filed; ~65% of deductions go uncontested ($826K in silent write-offs); 3,357 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
 
 ---
 
@@ -56,8 +56,8 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 7: Revenue Lifecycle
 **Source repo:** `contract-to-cash`
-**Dollar figure:** $2,178,000 in combined leakage; 86¢ per dollar invoiced reaches cash; B2B leakage 12.5%; time-to-cash 22–29 days
-**Finding:** "Cinderhaven was losing ~14 cents on every dollar invoiced — $2.178M in combined leakage — between invoice generation and cash receipt."
+**Dollar figure:** 87¢ per dollar invoiced reaches cash; B2B leakage 12.8%; time-to-cash 24–28 days (combined leakage dollar figure pending fresh pull from contract-to-cash — pipeline lumps recoverable layers into one unclassified bucket)
+**Finding:** "Cinderhaven was losing ~13 cents on every dollar invoiced between invoice generation and cash receipt."
 **Before/After:** Before: leakage measured only as the difference between gross revenue and bank deposits, with no attribution to deductions, timing, or process gaps. After: full invoice-to-cash waterfall mapped by leakage type, enabling targeted intervention at the highest-value gaps.
 
 ---
