@@ -1,44 +1,85 @@
-# The Ten Decisions
+# The Ten Decisions — the operational blind spots costing growing specialty food brands $1.4M–$2.3M a year
 
 > *Ten Decisions You're Making Blind — and What the Frameworks Look Like*
 
-A flagship manifesto-driven homepage and downloadable PDF manifesto positioning
-a specialty food consulting practice around ten critical decisions that growing
-brands ($3M–$50M revenue) make blind — and what it costs them.
+The flagship positioning piece for a specialty food consulting practice: a
+long-form manifesto and a companion executive summary, written for founders and
+CEOs of brands in the $3M–$50M revenue range, rendered to print-quality PDF
+with Quarto.
 
-## What this is
+## What it does
 
-The capstone of a consulting portfolio. Every other portfolio piece (tools,
-case studies, audits, diagnostics) maps to one of ten operational decisions.
-This piece ties them together into a coherent practice thesis and provides
-the intellectual framework that converts a portfolio of tools into a
-recognizable consulting practice.
+This project produces two documents:
 
-**The thesis:** A growing specialty food brand at $25M revenue is likely
-leaving $1.4M–$2.3M/year on the table across ten structural blind spots —
-SKU decisions, product data, deduction recovery, fulfillment, EDI, channel
-profitability, revenue lifecycle, retail readiness, launch economics, and
-weekly operational discipline.
+- **`manifesto.qmd`** — the full manifesto (~4,000 words). Walks through ten
+  operational decisions — SKU rationalization, product data readiness,
+  deduction recovery, fulfillment failure tracking, EDI compliance, channel
+  profitability, revenue lifecycle, retail readiness, launch economics, and
+  weekly operational discipline — and quantifies what making each one without
+  data costs at $25M revenue.
+- **`exec-summary.qmd`** — a 1,000-word, 3-minute brief covering the same
+  thesis for the quick-scan reader.
 
-## Data contract
+Both render to PDF (output in `dist/`) using the Lailara design system:
+CSS-based theming (`lailara.scss`), web fonts, and a Chromium-based PDF
+pipeline so the print output matches the web design exactly.
 
-The ten decisions reference **Cinderhaven Provisions**, a fictional $25M specialty food brand used across the consulting portfolio. Specific figures (SKU counts, channel economics, deduction rates) come from the canonical data spec in `cinderhaven-data-platform/CINDERHAVEN_CANONICAL.md`. This project does not consume data files directly — it references the brand narratively.
+## Why it matters
 
-## How to run
+This is the capstone of a consulting portfolio. Every other portfolio piece
+(tools, case studies, audits, diagnostics) maps to one of the ten decisions;
+this piece ties them into a single practice thesis a prospect can grasp in one
+read.
 
-*Stack TBD — to be determined during planning. See PLAN.md.*
+**The thesis:** a specialty food brand at $25M revenue is likely leaving
+$1.4M–$2.3M per year on the table across ten structural blind spots. Each
+component figure is traceable to a specific framework and methodology — for
+example, deductions unrecovered ($350K–$500K/yr) or fulfillment failures that
+vanish from the records when the legacy system overwrites the original PO
+quantity ($298K/yr).
 
-## Status
+The success metric is deliberately not a vanity metric: the piece exists to
+make a qualified executive reader recognize their own blind spots and start a
+conversation — not to collect page views.
 
-🔴 **Pre-build.** This project is in the planning phase. The build requires
-at least 8/10 portfolio pieces to be shipped first.
+## Quick start
 
-See PLAN.md for the current work arc and HANDOFF.md for session state.
+Prerequisites: [Quarto](https://quarto.org) and
+[pagedjs-cli](https://www.npmjs.com/package/pagedjs-cli) (the Chromium-based
+PDF engine configured in `_quarto.yml`).
 
-## Tech
+```bash
+# Render both documents to PDF in dist/
+quarto render
 
-TBD — see DECISIONS.md once the stack decision is logged.
+# Or render one document
+quarto render manifesto.qmd
+quarto render exec-summary.qmd
+```
 
----
+Pre-rendered PDFs are checked in under `dist/`
+(`the-ten-decisions-manifesto.pdf`, `the-ten-decisions-exec-summary.pdf`).
 
-Built by [Lailara LLC](https://lailarallc.com) — data hygiene and analytics consulting for specialty food brands scaling into national retail.
+## Tech stack
+
+- **Quarto** — authoring and rendering (`.qmd` source, `_quarto.yml` config)
+- **Paged.js (`pagedjs-cli`)** — Chromium-based PDF engine, so print output
+  uses the same CSS as the web design system
+- **SCSS** — `lailara.scss`, the Lailara design system theme, with bundled
+  web fonts in `fonts/`
+
+## Project structure
+
+```
+manifesto.qmd       Full manifesto (~4,000 words)
+exec-summary.qmd    3-minute executive brief
+_quarto.yml         Render config (PDF via pagedjs-cli)
+lailara.scss        Design-system theme
+fonts/              Bundled web fonts
+research/           Source findings and phrasing notes behind the figures
+dist/               Rendered PDFs
+```
+
+## License
+
+MIT
