@@ -20,7 +20,7 @@ problem.
 You've outgrown the spreadsheets and gut-checks that got you here. The decision
 infrastructure your business needs — the systems that would make ten operational
 choices visible, trackable, and defensible — doesn't exist yet. And the cost of
-that gap runs between **$1.4 million and $2.3 million a year.**
+that gap runs between **$1.4 million and $2.4 million a year.**
 
 ---
 
