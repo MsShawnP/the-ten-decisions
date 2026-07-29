@@ -20,7 +20,7 @@ This is not a product problem or a people problem. It's a data structure problem
 You've outgrown the systems that were adequate at $5M and haven't yet built the
 decision infrastructure that a $25M specialty food brand requires. The cost of
 that gap — across ten structural decisions that growing brands routinely make
-without data — runs between **$1.4 million and $2.4 million a year.** Not
+without data — runs between **$1.4 million and $2.3 million a year.** Not
 projected. Not theoretical. The gap that exists in the current business, right
 now, because ten operational choices are being made blind.
 

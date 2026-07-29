@@ -20,7 +20,7 @@ problem.
 You've outgrown the spreadsheets and gut-checks that got you here. The decision
 infrastructure your business needs — the systems that would make ten operational
 choices visible, trackable, and defensible — doesn't exist yet. And the cost of
-that gap runs between **$1.4 million and $2.4 million a year.**
+that gap runs between **$1.4 million and $2.3 million a year.**
 
 ---
 
@@ -40,7 +40,7 @@ Here is what those ten gaps actually cost, at $25 million in annual revenue:
 | Retailer launch unplanned | $200K–$750K |
 | Retailer costs unmodeled | Entire slotting investment at risk |
 | No weekly pulse | Compounds all above — caught 6–12 weeks late |
-| **Total across all ten decisions** | **$1.4M–$2.4M** |
+| **Total across all ten decisions** | **$1.4M–$2.3M** |
 
 :::
 

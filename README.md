@@ -1,4 +1,4 @@
-# The Ten Decisions — the operational blind spots costing growing specialty food brands $1.4M–$2.4M a year
+# The Ten Decisions — the operational blind spots costing growing specialty food brands $1.4M–$2.3M a year
 
 > *Ten Decisions You're Making Blind — and What the Frameworks Look Like*
 
@@ -32,7 +32,7 @@ this piece ties them into a single practice thesis a prospect can grasp in one
 read.
 
 **The thesis:** a specialty food brand at $25M revenue is likely leaving
-$1.4M–$2.4M per year on the table across ten structural blind spots. Each
+$1.4M–$2.3M per year on the table across ten structural blind spots. Each
 component figure is traceable to a specific framework and methodology — for
 example, deductions unrecovered ($350K–$500K/yr) or fulfillment failures that
 vanish from the records when the legacy system overwrites the original PO
