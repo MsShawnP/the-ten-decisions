@@ -1,6 +1,6 @@
 ---
 title: "The Ten Decisions: Executive Summary"
-subtitle: "A 3-Minute Brief for Specialty Food Founders"
+subtitle: "$1.4M–$2.3M a year in operational blind spots — a 3-minute brief for specialty food founders"
 date: "2026-01-01"
 date-format: "YYYY"
 ---
