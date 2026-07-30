@@ -26,7 +26,7 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 **Source repo:** `retailer-deduction-recovery`
 **Dollar figure:** $1.35M in deductions across 16,917 line items over 36 months; ~15% of deduction dollars recovered; ~42% win rate per disputed dollar, but only ~35% of deductions are ever disputed; 3,357 chargebacks (2,873 retailer + 484 distributor); ~$380K/yr operational deduction waste
 **Finding:** "Cinderhaven wins 42% of the disputes it files. The problem isn't winning — it's filing. Two-thirds of deductions are written off without a fight."
-**Before/After:** Before: ~15% of deduction dollars recovered — not because disputes fail, but because most are never filed; ~65% of deductions go uncontested ($826K in silent write-offs); 3,357 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
+**Before/After:** Before: ~15% of deduction dollars recovered — not because disputes fail, but because most are never filed; ~65% of deductions go uncontested ($877,620 in silent write-offs); 3,357 chargebacks over 36 months. After: systematic dispute process with evidence templates and retailer-specific response calendars targeting >50% recovery.
 
 ---
 
@@ -34,7 +34,7 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 **Source repo:** `short-ship-cost`, `web/public/data/validation.json`
 **Dollar figure:** $894K in total fulfillment shortfall costs over 36 months at 99.2% retailer / 99.5% distributor fill — $523,326 in forgone revenue, $164,543 in compliance fines, $118,814 in chargebacks, $87,490 in deductions; ~$298K/yr across four dimensions
 **Finding:** "99% unit fill still costs $300K/yr — the gap between unit fill and in-full is where the money hides. Cinderhaven's internal fill rate looks like excellence; retailers score them at 85%."
-**Before/After:** Before: no visibility into cost of shorts because the legacy system overwrote original orders with shipped quantities. After: 99.2% retailer fill rate costs ~$298K/yr — every dollar traces to a platform event or a published fine schedule. Internal OTIF 99.2%; retailer-scored OTIF 88.2% (Walmart 84.5%); OTIF gap 14.8 pts; $57K/yr in OTIF exposure ($23,697 fines + $33,500 velocity damage).
+**Before/After:** Before: no visibility into cost of shorts because the legacy system overwrote original orders with shipped quantities. After: 99.2% retailer fill rate costs ~$298K/yr — every dollar traces to a platform event or a published fine schedule. Internal fill 99.2%; retailer-scored OTIF 88.2% blended; the 14.8-pt gap is Walmart-specific (99.2 vs. 84.5, computed on unrounded rates); $57K/yr in OTIF exposure ($23,697 fines + $33,500 velocity damage).
 
 ---
 
@@ -48,9 +48,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 6: Channel Profitability
 **Source repo:** `channel-profitability-analysis` (also cross-referenced in `where-the-money-comes-from`, `src/data/channels.json`)
-**Dollar figure:** 3.01 margin points between Whole Foods (82.65%) and Costco (79.64%) — the best and worst retail channels; distributors blended at 90.16% vs. retail blended at 81.1%; Retail channels returned $53,000 more per million deployed than distribution.
+**Dollar figure:** 3.01 margin points between Whole Foods (82.65%) and Costco (79.64%) — the best and worst retail channels. Two different metrics, opposite directions: distributors realize 90.16 cents of cash per invoiced dollar vs. retail's 81.1 (fewer deductions), but on contribution after COGS and trade, retail runs 51.0% vs. distribution's 45.6% — worth ~$54,000 more contribution per $1M of revenue routed through retail.
 **Finding:** "Cinderhaven's best-performing retail channel delivered 3 margin points more than the worst — a gap invisible without per-channel contribution accounting."
-**Before/After:** Before: capital allocation driven by gross revenue rank (Walmart #1). After: contribution-margin ranking reveals distributor channels at 90¢/dollar vs. retail at 81¢/dollar — an 11.2% difference in returns on the same incremental dollar invested.
+**Before/After:** Before: capital allocation driven by gross revenue rank (Walmart #1). After: the ranking splits by metric — distributors realize more cash per invoiced dollar (90¢ vs. 81¢), but contribution after COGS and trade runs the other way (retail 51.0% vs. distribution 45.6%), worth ~$54,000 per $1M of revenue routed. Per revenue dollar, not a return on capital.
 
 ---
 
@@ -72,8 +72,8 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 9: Launch Economics
 **Source repo:** `cost-of-saying-yes`
-**Dollar figure:** Year 1 net = -$36,320; peak cash trough Month 4 = -$165,000; break-even Month 9; working capital required $165,000
-**Finding:** "When Cinderhaven modeled their Walmart launch, the first-year economics showed a $165,000 peak cash requirement and a break-even that didn't arrive until Month 9."
+**Dollar figure:** Year 1 net = -$36,320; peak cash trough Month 1 = -$156,352; break-even Month 9; working capital required $156,352
+**Finding:** "When Cinderhaven modeled their Walmart launch, the first-year economics showed a $156,352 peak cash requirement and a break-even that didn't arrive until Month 9."
 **Before/After:** Before: launch decision made on gross margin and velocity projections without modeling the full cash flow waterfall (slotting, 60-day terms, trade spend, OTIF reserve). After: full 12-month P&L and cash flow model showing peak trough, break-even timeline, and minimum working capital before saying yes to the buyer.
 
 ---
