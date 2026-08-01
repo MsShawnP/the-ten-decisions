@@ -49,9 +49,10 @@ shipped quantity, and the cost of the gap disappears from the records. You lose
 the revenue, the fill rate history, and the ability to make the case for recovery.
 
 And whether your EDI is catching errors before shipment or paying for them in
-chargebacks 30 days after the truck left the dock. A missing SSCC-18 barcode is
-$100 per case. A late ASN is $500 per load. A pre-flight check catches both in
-under 60 seconds.
+chargebacks 30 days after the truck left the dock. A missing SSCC-18 barcode
+draws a $200 fee plus $1 per case under Walmart's SQEP; a late ASN bills $25
+per PO and puts 3%-of-COGS OTIF fines in play. A pre-flight check catches both
+in under 60 seconds.
 
 Most brands at $25M are making all five without adequate data. Not neglected.
 Invisible — because nobody built the infrastructure to surface them.
@@ -130,6 +131,6 @@ that determine whether a specialty food brand scales or stalls.
 **Pursuing a new retail account?** The Retail Readiness Assessment tells you what's
 blocking you — before you sign the PO.
 
-→ [lailara.com/retail-readiness](https://lailara.com/retail-readiness)
+→ [lailarallc.com/scorecard](https://lailarallc.com/scorecard)
 
 :::

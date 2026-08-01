@@ -195,7 +195,7 @@ and the ability to make the case for recovery.
 
 At $5M, a short-ship is a text message to your co-packer. At $25M, it's OTIF
 fines and canceled reorders — and a buyer making a permanent ranging decision at
-the next category review. Walmart charges 3% of the PO value for every
+the next category review. Walmart charges 3% of COGS for every
 non-compliant order. At $25M in retail revenue, a 99% unit fill rate sounds
 like excellence — until you learn that retailers score you on in-full delivery,
 not unit fill. That 1% gap costs $300K a year across forgone revenue, compliance
@@ -235,17 +235,20 @@ steps that don't exist in the workflow yet.
 At $5M, your EDI coordinator knows every carrier and fixes errors by phone. At
 $25M, you're shipping 200+ loads a year and the errors are being fixed by your
 bank account instead. A brand shipping 200 loads per year with a 15% ASN error
-rate is generating $15,000 in entirely avoidable chargebacks — before case-level
-violations are counted. A three-layer pre-flight check before each shipment
-catches the blocking errors in under 60 seconds.
+rate is putting roughly 30 loads' OTIF scores at risk — and Walmart's OTIF fine
+is 3% of COGS on every case scored late — with SQEP data-defect fees stacked on
+top. A three-layer pre-flight check before each shipment catches the blocking
+errors in under 60 seconds.
 
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
-$500 per load for a missing or late ASN. $100 per case for missing or invalid
-SSCC-18 barcodes. $100 per item for catch-weight violations. Cinderhaven's ASN
-errors were being caught only at chargeback arrival — 30–60 days post-shipment —
-with a narrow dispute window. A pre-flight validation layer catches blocking
+Under Walmart's SQEP schedule, a missing or late ASN bills $25 per PO; a
+missing or invalid SSCC-18 draws a $200 administrative fee plus $1 per case;
+catch-weight data errors bill as PO-accuracy defects. The larger exposure is
+OTIF — 3% of COGS on every case a late ASN drags into a late score.
+Cinderhaven's ASN errors were being caught only at chargeback arrival — 30–60
+days post-shipment — with a narrow dispute window. A pre-flight validation layer catches blocking
 errors before the trailer gates at the DC.
 :::
 
@@ -410,18 +413,18 @@ requirements. The 12-month P&L and cash flow model shows you this path before yo
 commit to it — not after the penalty invoice arrives.
 
 Saying yes to Walmart without modeling it can mean funding a $156,352 cash hole
-from the first month. At $5M, you can absorb a bad launch decision because the
+from the very first month. At $5M, you can absorb a bad launch decision because the
 exposure is limited. At $25M, a new Walmart account that hits its volume
 projections but wasn't financially modeled before launch can take you profitable
-on paper in Month 1 and constrained by Month 4 — while your operations team is
+on paper in Month 1 and cash-constrained in that same month — while your operations team is
 too stretched to address the fill rate issues that are starting the OTIF clock.
 
 ::: {.callout-cinderhaven}
 **Cinderhaven Provisions — Composite case study**
 
 Cinderhaven's Walmart launch model: Year 1 net = -$36,320. Peak cash trough
-Month 1 = -$156,352. Break-even Month 9. Working capital required: $156,352.
-The full 12-month P&L and cash flow waterfall — slotting, 60-day terms, trade
+Month 1 = -$156,352. Working capital required: $156,352.
+The full 12-month P&L and cash flow waterfall — slotting, Net-30 terms, trade
 spend, OTIF reserve — changes the launch decision, not just the expectations.
 :::
 
@@ -497,6 +500,6 @@ into the ten decisions that determine whether you scale or stall.
 **Pursuing a new retail account?** The Retail Readiness Assessment tells you what's
 blocking you — before you sign the PO.
 
-→ [lailara.com/retail-readiness](https://lailara.com/retail-readiness)
+→ [lailarallc.com/scorecard](https://lailarallc.com/scorecard)
 
 :::

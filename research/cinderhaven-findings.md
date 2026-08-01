@@ -72,9 +72,9 @@ All figures derive from the Cinderhaven synthetic dataset; no real client data i
 
 ## Decision 9: Launch Economics
 **Source repo:** `cost-of-saying-yes`
-**Dollar figure:** Year 1 net = -$36,320; peak cash trough Month 1 = -$156,352; break-even Month 9; working capital required $156,352
-**Finding:** "When Cinderhaven modeled their Walmart launch, the first-year economics showed a $156,352 peak cash requirement and a break-even that didn't arrive until Month 9."
-**Before/After:** Before: launch decision made on gross margin and velocity projections without modeling the full cash flow waterfall (slotting, 60-day terms, trade spend, OTIF reserve). After: full 12-month P&L and cash flow model showing peak trough, break-even timeline, and minimum working capital before saying yes to the buyer.
+**Dollar figure:** Year 1 net = -$36,320; peak cash trough Month 1 = -$156,352; working capital required $156,352
+**Finding:** "When Cinderhaven modeled their Walmart launch, the first-year economics showed a $156,352 peak cash requirement hitting in the very first month."
+**Before/After:** Before: launch decision made on gross margin and velocity projections without modeling the full cash flow waterfall (slotting, Net-30 terms, trade spend, OTIF reserve). After: full 12-month P&L and cash flow model showing peak trough and minimum working capital before saying yes to the buyer.
 
 ---
 
