@@ -1,0 +1,9 @@
+# Per-repo drift-gate exceptions for the-ten-decisions.
+# "TOKEN @ path/glob" excepts one retired token in matching files; a bare
+# "path/glob" skips a whole file. History / audit / canon docs are already
+# auto-excluded by the gate — only genuine semantic exceptions belong here.
+#
+# $500 per load: a stated ASN/short-ship penalty ASSUMPTION in the research
+# notes, not a canonical Cinderhaven figure. It is retired platform-wide as a
+# figure but is legitimate here as a documented research assumption.
+$500 per load @ research/cinderhaven-findings.md
